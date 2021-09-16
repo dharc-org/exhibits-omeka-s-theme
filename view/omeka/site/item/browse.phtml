@@ -1,0 +1,54 @@
+<?php
+$escape = $this->plugin('escapeHtml');
+$this->htmlElement('body')->appendAttribute('class', 'item resource browse');
+$query = $this->params()->fromQuery();
+if (isset($itemSet)):
+    $this->htmlElement('body')->appendAttribute('class', 'item-set');
+    $query['item_set_id'] = $itemSet->id();
+endif;
+$headingTerm = $this->siteSetting('browse_heading_property_term', 'dcterms:title');
+$bodyTerm = $this->siteSetting('browse_body_property_term', 'dcterms:description');
+$itemSetShow = isset($itemSet);
+?>
+
+<?php if ($itemSetShow): ?>
+<div class="row">
+	<div class="col-sm-3">
+    	<span id="type-title"><?php echo $this->translate('Item set'); ?></span>
+    </div>
+    <div class="col-sm-9" id="page-title">
+   	  <?php echo $this->pageTitle($itemSet->displayTitle(), 2); ?>
+   	 </div>
+    <div class="metadata">
+        <?php echo $itemSet->displayValues(); ?>
+    </div>
+</div>
+<hr>
+    <div class="item-set-items">
+    <?php echo '<h3>' . $escape($this->translate('Items')) . '</h3>'; ?>
+<?php else: ?>
+    <?php echo $this->pageTitle($this->translate('Items'), 2); ?>
+<?php endif; ?>
+
+<?php echo $this->searchFilters(); ?>
+<?php echo $this->hyperlink($this->translate('Advanced search'), $this->url('site/resource', ['controller' => 'item', 'action' => 'search'], ['query' => $query], true), ['class' => 'advanced-search']); ?>
+<?php echo $this->pagination(); ?>
+<?php $this->trigger('view.browse.before'); ?>
+<ul class="resource-list">
+<?php
+foreach ($items as $item):
+    $heading = $item->value($headingTerm, ['default' => $this->translate('[Untitled]')]);
+    $body = $item->value($bodyTerm);
+?>
+    <li class="item resource">
+        <?php echo $item->linkRaw($this->thumbnail($item, 'medium')); ?>
+        <h4><?php echo $item->link($heading); ?></h4>
+        <?php if ($body): ?>
+        <div class="description"><?php echo $body; ?></div>
+        <?php endif; ?>
+    </li>
+<?php endforeach; ?>
+</ul>
+<?php echo ($itemSetShow) ? '</div>' : ''; ?>
+<?php $this->trigger('view.browse.after'); ?>
+<?php echo $this->pagination(); ?>

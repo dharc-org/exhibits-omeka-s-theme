@@ -1,0 +1,20 @@
+<?php
+$prevText = "Prev. Page";
+$nextText = "Next Page";
+?>
+<div class="site-page-pagination">
+    <?php if ($prevPage): ?> 
+    	<a class="btn btn-primary" href="<?php echo $prevPage->siteUrl()?>" aria-label="previous page">
+    		<i class="fa fa-arrow-left" aria-hiddenb="true"></i>
+    		<?php echo $prevText ?>
+    	</a>
+    <?php endif;
+
+    if ($nextPage):?>
+        <a class="btn btn-primary" href="<?php echo $nextPage->siteUrl()?>" aria-label="next page">
+    		<?php echo $nextText ?>
+    		<i class="fa fa-arrow-right" aria-hiddenb="true"></i>
+    	</a>
+    <?php endif; ?>
+</div>
+

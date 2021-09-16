@@ -1,0 +1,50 @@
+<?php
+$required = $element->getAttribute('required');
+$class = $required ? 'field required form-group' : 'field form-group';
+$type = $element->getAttribute('type');
+
+?>
+<?php if (null === $label || 'hidden' === $element->getAttribute('type')): ?>
+	
+	<?php echo $this->formElement($element); ?>
+
+<?php else: ?>
+
+<div class="<?php echo $class ?>">
+		<?php if ($type != 'checkbox' && $type != 'radio'): ?>
+			<!-- Label -->
+        	<?php echo $this->formLabel($element); ?>
+        	<?php if ($required): ?>
+        		<abbr class="req" title="required">*</abbr>
+       		<?php endif; ?>
+        	<?php if ($info = $element->getOption('info')): ?>
+        		<a href="#" class="expand" aria-label=" <?php echo $this->escapeHtml($this->translate('Expand')); ?>"></a>
+        		<div class="collapsible">
+            		<div class="field-description"><?php echo $this->escapeHtml($this->translate($info)); ?></div>
+        		</div>
+        	<?php endif; ?>
+        	
+        	<!--Inputs-->
+    		<?php $types = array ("text", "email", "textarea", "select" ); ?>
+    		<?php if(in_array($type, $types)): ?>
+    			<?php $element->setAttributes([
+    				'class' => 'form-control'
+    			]); ?>
+    		<?php endif; ?>
+        	<?php echo $this->formElement($element); ?>
+			<!-- Errors -->
+    		<?php echo $this->formElementErrors($element, ['class' => 'messages']); ?>
+    		
+    	<?php else: ?>
+    	
+    		<?php if($type == 'checkbox'):?>
+    			<div class="checkbox">
+    		<?php else:?>
+    			<div class="radio">
+    		<?php endif; ?>
+    		<?php echo $this->formLabel($element, $this->formElement($element), 'append');?>
+    		</div>
+    	
+    	<?php endif; ?>
+</div>
+<?php endif; ?>

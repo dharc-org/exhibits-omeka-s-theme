@@ -1,0 +1,43 @@
+<nav role="navigation" id="browse-pagination">
+<?php if ($totalCount): ?>
+	<?php
+   		 $from = $offset + 1;
+   		 $to = ($currentPage < $pageCount) ? $offset + $perPage : $totalCount;
+	?>
+    <span class="row-count"><?php echo sprintf($this->translate('Displaying results %s–%s of %s'), $from, $to, $totalCount); ?></span>
+
+	<ul class="pagination">
+    <form method="GET" action="">
+        <?php echo $this->queryToHiddenInputs(['page']); ?>
+        <input type="hidden" name="page" id="page-input-top" value="<?php echo $currentPage; ?>" size="4" <?php echo ($pageCount == 1) ? 'readonly' : ''; ?>>
+       <!-- <span class="page-count"><?php echo sprintf($this->translate('of %s'), $pageCount); ?></span>-->
+    </form>
+    <?php if ($currentPage != 1): ?>
+    <li><a href="<?php echo $previousPageUrl;?>" aria-label="Previous Page">
+    		<span aria-hidden="true" title="previous page">&laquo;</span>
+    </a></li>
+    <?php else: ?>
+    <li class="disabled"><span><span aria-hidden="true" title="previous page">&laquo;</span></span></li>
+    <?php endif; ?>
+
+	<?php $num = 1;
+		while($num <= $pageCount){
+			if($num == $currentPage){ echo "<li class='active'><span>".$num."<span class='sr-only'>(current)</span></span></li>";}
+			else{ echo "<li><a href='?page=".$num."'>".$num."</a></li>";}
+		$num++;
+		}	
+	?>
+		
+    <?php if ($currentPage < $pageCount): ?>
+    <li><a href="<?php echo $nextPageUrl;?>" aria-label="Next Page">
+    		<span aria-hidden="true" title="next page">&raquo;</span>
+    </a></li>
+    <?php else: ?>
+    <li class="disabled"><span><span aria-hidden="true" title="next page">&raquo;</span></span></li>
+    <?php endif; ?>
+
+</ul>
+<?php else: ?>
+    <?php echo $this->translate('0 results'); ?>
+<?php endif; ?>
+</nav>

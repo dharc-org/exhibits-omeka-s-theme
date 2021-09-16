@@ -1,0 +1,135 @@
+<?php	
+$escape = $this->plugin('escapeHtml');
+$this->htmlElement('html')->setAttribute('lang', $this->lang());
+$this->headMeta()->setCharset('utf-8');
+$this->headMeta()->appendName('viewport', 'width=device-width, initial-scale=1');
+$this->headTitle($this->setting('installation_title', 'Omeka S'))->setSeparator(' · ');
+$this->headLink()->prependStylesheet($this->assetUrl('css/iconfonts.css', 'Omeka'));
+$this->headLink()->appendStylesheet('//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300');
+$this->headLink()->appendStylesheet('//fonts.googleapis.com/css?family=Arvo:400,700');
+$this->headLink()->appendStylesheet('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', 'screen', false, ['integrity' => 'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', 'crossorigin' => 'anonymous']);
+$this->headLink()->appendStylesheet($this->assetUrl('css/custom.css'));
+//$this->headScript()->prependFile($this->assetUrl('js/default.js'));
+$this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 'Omeka'));
+$this->headScript()->appendFile($this->assetUrl('js/global.js', 'Omeka'));
+$this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', 'text/javascript', ['integrity' => 'sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', 'crossorigin' => 'anonymous']);
+
+$this->trigger('view.layout');
+$title = $site->title();
+$logo = $this->themeSetting('logo');
+$logourl = $this->escapeHtml($this->themeSettingAssetUrl('logo'));
+$hero = $this->themeSettingAssetUrl('hero');
+$description = $this->themeSetting('description');
+$userBar = $this->partial('common/user-bar', ['site' => $site]);
+?>
+<?php echo $this->doctype(); ?>
+<?php echo $this->htmlElement('html'); ?>
+    <head>
+        <?php echo $this->headMeta(); ?>
+        <?php echo $this->headTitle(); ?>
+        <?php echo $this->headLink(); ?>
+        <?php echo $this->headStyle(); ?>
+        <?php echo $this->headScript(); ?>
+
+<?php if ($hero):?>
+	<style>
+
+		@media screen and (min-width: 48em) {
+			#base{
+				background-image:url('<?php echo $this->escapeHtml($hero)?>');
+			}
+		}
+	</style>	
+<?php endif; ?>
+    </head>
+
+    <?php echo $this->htmlElement('body'); ?>
+    
+    <!--Skip navigation-->	<!--Skip to main content-->
+	<div id="skip_links" class="container-fluid">
+		<div class="col-md-12">
+			<a href="#content" class="sr-only sr-only-focusable skip_links--link">Skip to content</a>
+		</div>
+		<div class="col-md-12">
+			<a href="#mainnav" class="sr-only sr-only-focusable skip_links--link">Skip to navigation</a>
+		</div>
+	</div>
+	<!--/skip-->
+
+	<!-- Edit this for your own institution branding -->
+   	<div id="header" class="container-fluid center-block">
+		<nav class="navbar navbar-default">
+			<div class="navbar-header">
+			<?php if ($logo): ?>
+				<a class="navbar-brand l-site-navigation--logo" href="#">
+					<span class="sr-only">Home</span><img src="<?php echo $logourl ?>" class="l-site-navigation--logo-dark" alt="Institution Name">
+				</a>
+			<?php else: ?>
+				<a href="navbar-brand" href="#"><h1><?php echo $this->setting('installation_title','Omeka S'); ?></h1></a>
+			<?php endif; ?>
+			</div><!--/navbar-header-->
+			<div class="navbar-right" id="quicklinks">
+				<span class="sr-only">Quick Links</span>
+				<ul class="nav navbar-nav">
+					<li><a href="#">Link 1</a></li>
+					<li><a href="#">Link 2</a></li>
+					<li><a href="#">Link 3</a></li>
+					<li><a href="#">Link 4</a></li>
+					<li><a href="#">Link 5</a></li>
+				</ul>
+			</div><!--/#quicklinks-->
+		</nav><!--/#top-->
+	</div><!--/#header--> 
+
+
+   <!--Header "Online Exhibitions" Bar-->
+   <div class="container-fluid" id="base">
+	<header class="row">
+	   		
+	<!--Hamburger (mobile)-->
+	<button type="button" class="btn btn-link menu-toggle navbar-toggle collapsed" data-toggle="collapse" data-target="#mainnav">
+		<i class="fa fa-bars fa-3x"></i>
+	</button>
+	</header>
+  		
+  		<div class="container-fluid main-container">
+	<!--Online Exhibition nav (if any)-->
+		<div class="row">
+			<div class="col-md-3" id="side_navigation">
+				<nav>
+					<div class="collapse navbar-collapse" id="mainnav">
+													   <!--Exhibition Search-->
+						<div id="search">
+							<?php echo $this->partial('common/search-form'); ?>
+						</div>
+						<?php
+						echo $site->publicNav()->menu()->renderPartial(null, "common/main-navigation");
+						?>
+					</div>
+				</nav>
+			</div><!--Side Navigation-->
+      
+        	<div class="col-md-9" id="content" role="main">
+        		<div class="row" id="content_row1">
+        			<!--Exhibtion Title-->
+					<div id="exhibitiontitle" class="row center-block">
+						<h1 class="text-right"><?php echo $title; ?><small><?php if($description): echo $this->escapehtml($description); endif;?></small></h1>
+					</div>
+					<div class="exhibitioncontent">
+            			<?php echo $this->content; ?>
+            		</div>
+            	</div>
+            </div><!--//#content-->
+            
+        </div><!--//.row-->
+    </div><!--//.main-container-->
+    </div>
+    
+        <footer class="container-fluid">
+       
+        </footer>
+        <!-- Javascript fies -->
+        <?php echo $this->inlineScript()->prependFile($this->assetUrl('js/videofix.js')); ?>
+  
+    </body>
+</html>

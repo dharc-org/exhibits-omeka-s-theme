@@ -1,0 +1,22 @@
+<?php
+
+//$container = $this->container;
+//$nav = $container->toArray();
+$menu = $this->navigation()->menu();
+$menu->setULClass("nav nav-pills nav-stacked");
+echo $menu->renderMenu($this->container, ['maxDepth' => 0]);
+?>
+
+<?php
+//foreach($nav as $first){
+//	echo $first["label"];
+//	foreach($first["pages"] as $second){
+//		echo $second["label"];
+//	}
+//}
+
+//foreach ($this->container as $firstlevel) {
+	//$ = $this->navigation()->findOneByLabel($firstlevel->label);
+  //	echo $this->navigation()->menu()->renderMenu($firstlevel);
+//}
+?>
