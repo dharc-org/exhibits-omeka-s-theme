@@ -65,17 +65,19 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
 					<span class="sr-only">Home</span><img src="<?php echo $logourl ?>" class="l-site-navigation--logo-dark" alt="Institution Name">
 				</a>
 			<?php else: ?>
-				<a href="navbar-brand" href="#"><h1><?php echo $this->setting('installation_title','Omeka S'); ?></h1></a>
+			    <!-- top left Site Title -->
+				<a href="navbar-brand" href="#"><h1><?php echo $title; ?></h1></a>
+				
 			<?php endif; ?>
 			</div><!--/navbar-header-->
 			<div class="navbar-right" id="quicklinks">
 				<span class="sr-only">Quick Links</span>
 				<ul class="nav navbar-nav">
-					<li><a href="#">Link 1</a></li>
+					<!--<li><a href="#">Link 1</a></li>
 					<li><a href="#">Link 2</a></li>
 					<li><a href="#">Link 3</a></li>
-					<li><a href="#">Link 4</a></li>
-					<li><a href="#">Link 5</a></li>
+					<li><a href="#">Link 4</a></li>-->
+					<li><a href="https://ficlit.unibo.it/it">Ritorna al FICLIT </a></li>
 				</ul>
 			</div><!--/#quicklinks-->
 		</nav><!--/#top-->
