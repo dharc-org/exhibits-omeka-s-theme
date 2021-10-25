@@ -1,5 +1,6 @@
 /*Css File for Omeka Utas Theme*/
 
+/* todo-list */
 
 /*GLOBAL TAGS*/
 html{
@@ -48,17 +49,19 @@ form{
 
 .form-control:focus {
 	border-color: #337ab7;
-	box-shadow: inset 0 0 4px 2px #337ab7;
+	box-shadow: inset 0 0 4px 2px #99000b;
 }
 
 /* #skip_links */
 
 #skip_links, #skip_links .col-md-12{
+	height: 10px;
 	padding:0;
+	background: #990000;
 }
 
 .skip_links--link:focus{
-	background:#337ab7;
+	background:#99000b;
 	color:#fff;
 	width:100%;
 	display:block;
@@ -103,20 +106,23 @@ form{
 	.navbar-header{
 		margin-top:10px;
 		margin-bottom:10px;
+		margin-left: 25px;
 	}
 }
 /* .navbar #quicklinks */
 #quicklinks{
 	text-transform:uppercase;
-	margin-right:1vw;
+	margin-right:3vw;
 	line-height:1;
-	font-size:0.88em;
+	font-size:1em;
 	letter-spacing:1px;
 	padding-left:15px;
+	font-style: italic;
 }
 
 #quicklinks a{
-	color:#000;
+	color:#337ab7;
+	font-size: bold;
 	padding:0;
 	margin:10px 0 0 10px;
 }
@@ -262,7 +268,7 @@ header .title a{
 }
 
 .menu-toggle, .menu-toggle:hover, .menu-toggle:focus{
-	color:#337ab7;
+	color:#99000b;
 	float:left;
 
 }
@@ -305,7 +311,7 @@ header .title a{
 }
 
 #side_navigation nav li.active{
-	background-color:#337ab7;
+	background-color:#99000b;
 	border-radius:0;
 	margin-left: -2px;
 	margin-right:-2px;
@@ -352,7 +358,7 @@ header .title a{
 
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover{
-	color: #337ab7;
+	color: #99000b;
 	background-color:initial;
 }
 
@@ -405,13 +411,13 @@ header .title a{
 
 .sub-menu>.nav>li>a:focus, 
 .sub-menu>.nav>li>a:hover{
-	background-color:#337ab7;
+	background-color:#99000b;
 }
 
 .sub-menu>.nav-pills>li.active>a,
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover{
-	background-color:#337ab7;
+	background-color:#99000b;
 }
 /* Social media sharing buttons */
 #sharing-buttons{
@@ -628,7 +634,7 @@ footer{
 
 #exhibitions a:hover,
 #exhibitions a:focus{
-	color:#337ab7;
+	color:#99000b;
 	text-decoration:underline;
 }
 
