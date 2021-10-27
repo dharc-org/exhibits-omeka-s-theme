@@ -55,7 +55,7 @@ form{
 /* #skip_links */
 
 #skip_links, #skip_links .col-md-12{
-	height: 10px;
+	height: 20px;
 	padding:0;
 	background: #990000;
 }
@@ -95,7 +95,8 @@ form{
 	background-color:#fff;
 	border:none;
 	margin-bottom:0;
-	
+	margin-left: 50px;
+	margin-right: 50px;
 }
 
 @media (min-width:768px) {
@@ -104,20 +105,21 @@ form{
 	}
 	
 	.navbar-header{
-		margin-top:10px;
-		margin-bottom:10px;
+		margin-top:-10px;
+		margin-bottom:15px;
 		margin-left: 25px;
 	}
 }
 /* .navbar #quicklinks */
 #quicklinks{
 	text-transform:uppercase;
-	margin-right:3vw;
+	margin-right:2vw;
 	line-height:1;
-	font-size:1em;
-	letter-spacing:1px;
+	font-size:0.9em;
+	letter-spacing:0.8px;
 	padding-left:15px;
 	font-style: italic;
+	font-size: bold;
 }
 
 #quicklinks a{
@@ -224,6 +226,9 @@ header .title a{
 		/*background-position: bottom right;*/
 		background-size: 100% auto;
 		/*min-height: 250px;*/
+		margin-left: 18px;
+		margin-right: 18px;
+		margin-top: -15px;
 	}
 	
 	header{
@@ -288,13 +293,15 @@ header .title a{
 
 #search .form-control{
 	padding:0px 5px;
-/*	border: 1px solid #337ab7;*/
+	border: 1px solid #337ab7;
 }
 
 #side_navigation{
-	padding:0;
+	padding:0.8em;
 	padding-top:1em;
 	background-color:black;
+	margin-left: -30px;
+	margin-right: 30px;
 }
 
 #side_navigation nav{
