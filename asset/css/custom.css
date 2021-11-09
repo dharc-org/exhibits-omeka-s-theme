@@ -20,6 +20,7 @@ h1, .h1{
 
 h2, .h2{
     font-size: 1.5em;
+	font-style: italic;
 }
 
 h3, .h3{
@@ -638,6 +639,18 @@ footer{
 .footer--copyright a:hover,
 .footer--copyright a:focus{
 	text-decoration:underline;
+}
+
+footer .first-section{
+	vertical-align: top;
+	max-width: 40%;
+	display: inline-block;
+	text-align: left;
+	box-sizing: border-box;
+}
+
+footer . footer.title{
+	color:white;
 }
 
 #exhibitions a:hover,
