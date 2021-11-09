@@ -8,7 +8,7 @@ html{
 	line-height: 1.45;
 	color:#000;
 	font-size:100%;
-	background-color:#fff;
+	background-color:#dec5c5;
 }
 
 h1, h2, h3, #type-title{
@@ -58,7 +58,7 @@ form{
 #skip_links, #skip_links .col-md-12{
 	height: 20px;
 	padding:0;
-	background: white;
+	background: #3b0002;
 }
 
 .skip_links--link:focus{
@@ -92,20 +92,23 @@ form{
 	display:inline-flex;
 }
 
+/*here whole part with the top left title*/
 .navbar-default{
 	background-color:#fff;
-	border:soft;
-	/*border-color: #99000;*/
+	border: solid;
+	border-top: none;
+	border-bottom: none;
+	border-color: #2e6da4;
 	margin-bottom:0;
-	margin-left: 50px;
-	margin-right: 50px;
+	margin-left: 30px;
+	margin-right: 30px;
 }
 
 @media (min-width:768px) {
 	#title-logo{
 		height:130px;
 	}
-	
+	/*Here Mostra virtuale left top*/
 	.navbar-header{
 		margin-top:-10px;
 		margin-bottom:15px;
@@ -222,14 +225,14 @@ header .title a{
 @media screen and (min-width: 48em) {
 
 	#base {
-		background-color:#f4f4f4;
+		background-color:#fcf0f0;
 		background-repeat:no-repeat;
 		/*background-image:url("../resources/images/AndrewInglisClark.jpg"), linear-gradient(to right, black, black 60%, rgba(255,255,255,1));*/
 		background-position: absolute;
 		background-size: 100%;
 		margin-left: 25px;
 		margin-right: 25px;
-		margin-top: -30px;
+		margin-top: -20px;
 		/*Come fare linear gradient???*/
 	}
 	
