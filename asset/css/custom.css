@@ -40,7 +40,7 @@ a{
 }
 
 a:hover, a:focus {
-	color: #000;
+	color: white;
 }
 
 form{
@@ -623,13 +623,20 @@ header .title a{
 }
 
 footer{
-	background-color:black;
+	background-color:#3b0002;
 	color:white;
 	padding:2rem;
 }
 
 .footer--copyright{
 	padding-top: 3rem;
+}
+
+footer .copyright-text{
+	text-align: center;
+	font-style: italic;
+	color: white;
+	padding-top: 50px;
 }
 
 .footer--copyright a{
@@ -653,8 +660,8 @@ footer .new-footer{
 	margin: 0 auto;
 	width: 80%;
 	padding: 30px;
-	padding-top: 25px;
-	padding: 20px;
+	padding-top: 40px;
+	padding-bottom: 20px;
 	text-align: center;
 }
 
@@ -677,8 +684,11 @@ footer .second-section{
 	/*padding-left: 100px;*/
 }
 
-footer . footer.title{
+footer .footer-title{
 	color:white;
+	font-size: 20px;
+	font-weight: 300;
+	font-family: "Cardo", serif;
 }
 
 #exhibitions a:hover,
