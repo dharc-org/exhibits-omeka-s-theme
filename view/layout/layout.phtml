@@ -7,6 +7,9 @@ $this->headTitle($this->setting('installation_title', 'Omeka S'))->setSeparator(
 $this->headLink()->prependStylesheet($this->assetUrl('css/iconfonts.css', 'Omeka'));
 $this->headLink()->appendStylesheet('//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,400,600,700,300');
 $this->headLink()->appendStylesheet('//fonts.googleapis.com/css?family=Arvo:400,700');
+$this->headLink()->appendStylesheet('//fonts.googleapis.com/css2?family=Zen+Old+Mincho&display=swap');
+$this->headLink()->appendStylesheet('//fonts.googleapis.com/css2?family=Cardo&family=Cormorant+Garamond:wght@300&display=swap');
+$this->headLink()->appendStylesheet('//fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
 $this->headLink()->appendStylesheet('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', 'screen', false, ['integrity' => 'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', 'crossorigin' => 'anonymous']);
 $this->headLink()->appendStylesheet($this->assetUrl('css/custom.css'));
 //$this->headScript()->prependFile($this->assetUrl('js/default.js'));
@@ -77,7 +80,7 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
 					<li><a href="#">Link 2</a></li>
 					<li><a href="#">Link 3</a></li>
 					<li><a href="#">Link 4</a></li>-->
-					<li><a href="https://ficlit.unibo.it/it">Ritorna al FICLIT </a></li>
+					<li><a href="https://ficlit.unibo.it/it">FICLIT Homepage</a></li>
 				</ul>
 			</div><!--/#quicklinks-->
 		</nav><!--/#top-->
