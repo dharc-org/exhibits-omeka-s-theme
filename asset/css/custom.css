@@ -310,7 +310,7 @@ header .title a{
 }
 
 #side_navigation nav{
-	/*font-size:1.5em;*/
+	font-size:1.5em;
 	font-family:"Cormorant Garamond", serif;
 /*	border-top:#337ab7 solid 5px;*/
 }
@@ -327,7 +327,7 @@ header .title a{
 	border-radius:0;
 	margin-left: -2px;
 	margin-right:-2px;
-	font-size: 25px;
+	/*font-size: 25px;*/
 }
 
 #side_navigation nav li.active>a, 
