@@ -11,16 +11,16 @@ html{
 	background-color:#dec5c5;
 }
 
-h1, h2, h3, #type-title{
+h2, h3, #type-title{
 	font-family: "Cardo", serif;
 }
 h1, .h1{
 	font-size:1.7em;
+	font-family: 'Libre Baskerville', serif;
 }
 
 h2, .h2{
     font-size: 1.5em;
-	font-style: italic;
 }
 
 h3, .h3{
@@ -35,7 +35,7 @@ p {
     font-size: 1em;
 }
 
-a{
+a {
 	color:#337ab7;
 }
 
@@ -56,9 +56,9 @@ form{
 /* #skip_links */
 
 #skip_links, #skip_links .col-md-12{
-	height: 20px;
+	height: 10px;
 	padding:0;
-	background: #3b0002;
+	background: #99000b;
 }
 
 .skip_links--link:focus{
@@ -82,26 +82,30 @@ form{
 }
 .navbar-brand{
 	height:initial;
-	color:#000 !important;
+	color:#2d6a9f;
 	position: relative;
-	top:10px;
+	margin-top: -20px;
+	margin-left: 15px;
+	font-size: 10px;
+	font-style: italic;
 }
 
 .navbar-nav>li{
-	/*float:left;*/
+	float:left;
 	display:inline-flex;
+	margin-top: 10px;
 }
 
 /*here whole part with the top left title*/
 .navbar-default{
 	background-color:#fff;
-	border: solid;
-	border-top: none;
+	border: none;
+	/*border-top: none;
 	border-bottom: none;
-	border-color: #2e6da4;
-	margin-bottom:0;
+	border-color: #2e6da4;*/
+	/*margin-bottom:0;
 	margin-left: 30px;
-	margin-right: 30px;
+	margin-right: 30px;*/
 }
 
 @media (min-width:768px) {
@@ -110,9 +114,9 @@ form{
 	}
 	/*Here Mostra virtuale left top*/
 	.navbar-header{
-		margin-top:-10px;
+		/*margin-top:-10px;
 		margin-bottom:15px;
-		margin-left: 25px;
+		margin-left: 25px;*/
 	}
 }
 /* .navbar #quicklinks */
@@ -120,16 +124,14 @@ form{
 	text-transform:uppercase;
 	margin-right:2vw;
 	line-height:1;
-	font-size:0.9em;
-	letter-spacing:0.8px;
+	font-size:1.1em;
+	letter-spacing:0.3px;
 	padding-left:15px;
-	font-style: italic;
-	font-size: bold;
+	padding-top: -10px;
 }
 
 #quicklinks a{
 	color:#337ab7;
-	font-size: bold;
 	padding:0;
 	margin:10px 0 0 10px;
 }
@@ -203,7 +205,7 @@ header .title a{
 }
 #exhibitiontitle h1>small{
 	display:block;
-	color:#aaa;
+	color:#2d6a9f;
 	font-size:50%;
 }
 
