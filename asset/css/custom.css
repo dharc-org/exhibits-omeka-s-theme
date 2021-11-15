@@ -8,7 +8,7 @@ html{
 	line-height: 1.45;
 	color:#000;
 	font-size:100%;
-	background-color:#dec5c5;
+	background-color:#f6efef;
 }
 
 h2, h3, #type-title{
@@ -125,7 +125,7 @@ form{
 	margin-right:2vw;
 	line-height:1;
 	font-size:1.1em;
-	letter-spacing:0.3px;
+	letter-spacing:0.1px;
 	padding-left:15px;
 	padding-top: -10px;
 }
@@ -229,8 +229,7 @@ header .title a{
 	#base {
 		background-color:#fcf0f0;
 		background-repeat:no-repeat;
-		/*background-image:url("../resources/images/AndrewInglisClark.jpg"), linear-gradient(to right, black, black 60%, rgba(255,255,255,1));*/
-		background-position: absolute;
+		background-position: relative;
 		background-size: 100%;
 		margin-left: 25px;
 		margin-right: 25px;
@@ -313,7 +312,9 @@ header .title a{
 
 #side_navigation nav{
 	font-size:1.5em;
-	font-family:"Cormorant Garamond", serif;
+	font-family: "Cormorant Garamond", serif;
+	font-weight: bold;
+	letter-spacing: 0.5px;
 /*	border-top:#337ab7 solid 5px;*/
 }
 
@@ -325,7 +326,7 @@ header .title a{
 }
 
 #side_navigation nav li.active{
-	background-color:#99000b;
+	background-color:#b3000c;
 	border-radius:0;
 	margin-left: -2px;
 	margin-right:-2px;
@@ -372,8 +373,9 @@ header .title a{
 
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover{
-	color: #99000b;
+	color: #fff;
 	background-color:initial;
+	text-decoration: underline;
 }
 
 #mainnav>.nav>li.active>a:focus, 
@@ -696,6 +698,10 @@ footer .footer-title{
 	font-family: "Cardo", serif;
 }
 
+footer .footer-text{
+	color:white;
+}
+
 #exhibitions a:hover,
 #exhibitions a:focus{
 	color:#99000b;
@@ -737,6 +743,7 @@ footer .footer-title{
 	.property h4, .property .values{
 		padding-right:15px;
 		padding-left:15px;
+		font-size: 20px;
 	}
 	
 	.property h4{	
@@ -746,11 +753,19 @@ footer .footer-title{
 	}
 	
 	.property .values{
-		width:75%;
-		float:left;
+		width:25%;
+		float:right;
 		margin-top:10px;
 		margin-bottom:10px;
 	}
+}
+
+/*created anew*/
+/*.universal-viewer {
+	float: left;
+	width: 30%;
+	height: 40%;*/
+	
 }
 
 .media-list{
