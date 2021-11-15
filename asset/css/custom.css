@@ -29,6 +29,8 @@ h3, .h3{
 
 h4, .h4{
 	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
 }
 
 p {
@@ -122,12 +124,12 @@ form{
 /* .navbar #quicklinks */
 #quicklinks{
 	text-transform:uppercase;
-	margin-right:2vw;
+	margin-right:1vw;
 	line-height:1;
-	font-size:1.1em;
-	letter-spacing:0.1px;
+	font-size:.9em;
+	letter-spacing:1px;
 	padding-left:15px;
-	padding-top: -10px;
+	/*padding-top: -10px;*/
 }
 
 #quicklinks a{
@@ -214,6 +216,9 @@ header .title a{
 	color:#000;
 	padding:30px;
 	padding-bottom:50px;
+	font-weight: 100;
+	overflow-wrap: break-word;
+	display: flow-root;
 }
 
 @media (min-width:768px){
@@ -643,7 +648,7 @@ footer .copyright-text{
 	text-align: center;
 	font-style: italic;
 	color: white;
-	padding-top: 50px;
+	padding-top: 25px;
 }
 
 .footer--copyright a{
@@ -711,9 +716,10 @@ footer .footer-text{
 #page-title h2{
 	margin-bottom:0;
 	margin-top:12px;
-	font-size: 1.7em;
+	font-size: 2em;
 	font-weight:bold;
 	padding-bottom:20px;
+	
 }
 
 #type-title{
@@ -725,11 +731,13 @@ footer .footer-text{
     line-height: 24px;
     vertical-align: middle;
     text-align: right;
-    font-size:1.2em;
+    font-size:2em;
 }
 
 .property{
-	padding-bottom:20px;
+	padding-bottom:inherit;
+	font-size: 1.3em;
+	clear: left;
 }
 
 .property h4, .property .values{
@@ -739,11 +747,17 @@ footer .footer-text{
 	line-height:20px;
 }
 
+.h4, .h5, .h6, h4, h5, h6{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	line-height: 1.1;
+}
+
 @media (min-width: 992px){
 	.property h4, .property .values{
-		padding-right:15px;
-		padding-left:15px;
-		font-size: 20px;
+		padding-right:30px;
+		padding-left:20px;
+		font-size: 22px;
 	}
 	
 	.property h4{	
@@ -753,19 +767,46 @@ footer .footer-text{
 	}
 	
 	.property .values{
-		width:25%;
-		float:right;
+		width:50%;
+		float:left;
 		margin-top:10px;
 		margin-bottom:10px;
+		padding-left: 25px;
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-right: 5px;
+		border: solid;
+		border-width: 0.1em;
+		border-color: #d9d9d9;
+		border-radius: 5px;
+		border-spacing: 20px;
 	}
 }
 
-/*created anew*/
-/*.universal-viewer {
-	float: left;
-	width: 30%;
-	height: 40%;*/
-	
+h4 {
+	display: block;
+	margin-block-start: 0.8em;
+	margin-block-end: 0.7em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	font-weight: bold;
+} 
+
+div {
+	display: block;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.row {
+	margin-bottom: 20px;
+}
+
+.universal-viewer {
+	margin-top: 20px;
+	margin-bottom: -50px;
 }
 
 .media-list{
