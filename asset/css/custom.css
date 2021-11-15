@@ -86,16 +86,19 @@ form{
 	height:initial;
 	color:#2d6a9f;
 	position: relative;
-	margin-top: -20px;
-	margin-left: 15px;
-	font-size: 10px;
+	margin-top: -12px;
+	margin-left: 200px;
+	font-size: 12px;
 	font-style: italic;
+}
+
+.navbar {
+	min-height: 90px;
 }
 
 .navbar-nav>li{
 	float:left;
 	display:inline-flex;
-	margin-top: 10px;
 }
 
 /*here whole part with the top left title*/
@@ -124,11 +127,13 @@ form{
 /* .navbar #quicklinks */
 #quicklinks{
 	text-transform:uppercase;
-	margin-right:1vw;
+	margin-right:5.5vw;
 	line-height:1;
-	font-size:.9em;
-	letter-spacing:1px;
+	font-size:1.5em;
+	letter-spacing:0.5px;
 	padding-left:15px;
+	margin-right: 100px;
+	font-family: 'Crimson Text', serif;
 	/*padding-top: -10px;*/
 }
 
@@ -200,7 +205,7 @@ header .title a{
 }
 
 #exhibitiontitle h1{
-	font-size:2em;
+	/*font-size:2em;*/
 	/*padding-right:20px;
 	padding-left:12px;*/
 
