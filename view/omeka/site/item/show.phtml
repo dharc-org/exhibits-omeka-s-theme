@@ -13,10 +13,12 @@ $itemMedia = $item->media();
 	<?php echo $this->pageTitle($item->displayTitle(), 2); ?>
 </div>
 </div>
+<?php echo $item->displayValues(); ?>
 <?php echo $this->universalViewer($item); ?>
 <?php $this->trigger('view.show.before'); ?>
-<?php echo $item->displayValues(); ?>
+
 <div class="property">
+
     <?php $itemSets = $item->itemSets(); ?>
     <?php if (count($itemSets) > 0): ?>
     <h4><?php echo $this->translate('Item sets'); ?></h4>
@@ -25,13 +27,13 @@ $itemMedia = $item->media();
     <?php endforeach; ?>
     <?php endif; ?>
 </div>
-<?php if (!$embedMedia && $itemMedia): ?>
+<?php //if (!$embedMedia && $itemMedia): ?>
 <div class="media-list">
-    <?php foreach ($itemMedia as $media): ?>
-        <?php echo $media->linkPretty(); ?>
-    <?php endforeach; ?>
+    <?php // foreach ($itemMedia as $media): ?>
+        <?php  //echo $media->linkPretty(); ?>
+    <?php //endforeach; ?>
 </div>
-<?php endif; ?>
+<?php //endif; ?>
 
 <?php
 $page = $this->params()->fromQuery('page', 1);
