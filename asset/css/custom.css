@@ -24,7 +24,7 @@ h2, .h2{
 }
 
 h3, .h3{
-	font-size: 1.3em;
+	font-size: 20px;
 }
 
 h4, .h4{
@@ -39,6 +39,7 @@ p {
 
 a {
 	color:#337ab7;
+	font-size:20px;
 }
 
 a:hover, a:focus {
@@ -507,7 +508,7 @@ header .title a{
 }
 
 .item.resource .caption {
-    font-size: 12px;
+    font-size: 20px;
     line-height:24px
 }
 .item.resource .caption * {
@@ -541,7 +542,7 @@ header .title a{
 
 .item-showcase .resource.item:not(:only-child) h3 {
         clear: left;
-        font-size: 12px;
+        font-size: 20px;
         line-height:24px;
         margin: 12px 0 0;
 }
