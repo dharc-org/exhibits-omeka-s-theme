@@ -57,8 +57,8 @@ a {
 }
 
 a.footer-a{
-	color:#337ab7;
-	font-size: 1em;
+	color:#9cc2e3;
+	font-size: 1.05em;
 	font-family: "Cardo", serif;
 }
 
@@ -124,6 +124,13 @@ form{
 .navbar-nav>li{
 	float:left;
 	display:inline-flex;
+	padding: 5px;
+}
+
+.navbar-nav>li + li::before {
+  content: '|';
+  margin-top: 11.5px;
+  color: #337ab7;
 }
 
 /*here whole part with the top left title*/
@@ -151,13 +158,13 @@ form{
 }
 /* .navbar #quicklinks */
 #quicklinks{
-	text-transform:uppercase;
+	/*text-transform:uppercase;*/
 	margin-right:5.5vw;
 	line-height:1;
-	font-size:1.5em;
-	letter-spacing:0.5px;
+	font-size:1.1em;
+	letter-spacing:0px;
 	padding-left:15px;
-	margin-right: 150px;
+	margin-right: 50px;
 	font-family: 'Crimson Text', serif;
 	/*padding-top: -10px;*/
 }
@@ -767,7 +774,7 @@ footer .footer-text{
     text-align: right;
     font-size:2em;
 	margin-right: 0px;
-	margin-left: -20px;
+	margin-left: 1px;
 }
 
 .property{
@@ -783,10 +790,19 @@ footer .footer-text{
 	line-height:20px;
 }
 
-.property:last-of-type{
+/*.property:last-of-type{
 		background: black;
 		clear: left;
-	}
+	}*/
+
+.groupedValues::after{
+	content: "\a";
+    white-space: pre;
+}
+
+.uniVi {
+	clear: left;
+}
 
 .h4, .h5, .h6, h4, h5, h6{
 	margin-top: 10px;
@@ -796,7 +812,7 @@ footer .footer-text{
 
 @media (min-width: 992px){
 	.property h4, .property .values{
-		padding-right:12px;
+		padding-right:0px;
 		padding-left:0px;
 		font-size: 17px;
 	}
@@ -812,15 +828,15 @@ footer .footer-text{
 		float:left;
 		margin-top:9px;
 		margin-bottom:10px;
-		padding-left: 15px;
+		padding-left: 35px;
 		padding-top: 5px;
 		padding-bottom: 5px;
-		padding-right: 5px;
-		border: solid;
+		/*padding-right: 5px;*/
+		/*border: solid;
 		border-width: 0.1em;
 		border-color: #d9d9d9;
 		border-radius: 5px;
-		border-spacing: 20px;
+		border-spacing: 20px;*/
 	}
 	
 }
