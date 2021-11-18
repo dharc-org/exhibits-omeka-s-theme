@@ -282,11 +282,11 @@ header .title a{
 		/*Come fare linear gradient???*/
 	}
 	
-	header{
+	.topspace{
 		min-height:250px;
 		background-color:initial;
 	}
-
+	
 	header .row{
 		border:none;
 	}
