@@ -19,7 +19,9 @@ $itemMedia = $item->media();
 <?php // echo nl2br("\n");?>  
 
 <div class="uniVi">
-	<?php echo $this->universalViewer($item); ?>
+	<?php 
+	//echo $this->universalViewer($item);
+	echo $this->mirador($item); ?>
 </div>
 <?php $this->trigger('view.show.before'); ?>
 
