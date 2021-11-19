@@ -47,7 +47,7 @@ p {
     font-size: 1.2em;
 	line-height: 1.25;
 	letter-spacing: 0.2px;
-	text-align: justify;
+	/*text-align: justify;*/
 	font-family: "Zen Old Mincho", serif;
 }
 
@@ -789,6 +789,7 @@ footer .footer-text{
 	font-size:1em;
 	line-height:20px;
 }
+
 
 /*.property:last-of-type{
 		background: black;
