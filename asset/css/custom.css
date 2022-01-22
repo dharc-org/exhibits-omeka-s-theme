@@ -46,7 +46,7 @@ h4, .h4{
 p {
     font-size: 1.2em;
 	line-height: 1.25;
-	letter-spacing: 0.2px;
+	letter-spacing: 0.4px;
 	/*text-align: justify;*/
 	font-family: "Zen Old Mincho", serif;
 }
@@ -259,6 +259,7 @@ header .title a{
 	display: flow-root;
 	margin-right: 100px;
 	/*margin-left: 40px;*/
+	font-family: "Zen Old Mincho", serif;
 }
 
 @media (min-width:768px){
