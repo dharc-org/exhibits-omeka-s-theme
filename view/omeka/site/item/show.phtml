@@ -57,4 +57,9 @@ $subjectValues = $item->displaySubjectValues($page, 25, $property);
 </div>
 <?php endif; ?>
 
+<div class="site-page-pagination">
+<a class="btn btn-primary" href="javascript:history.back();" aria-label="previous page">
+<i class="fa fa-arrow-left" aria-hiddenb="true"></i>Prev. Page</a>
+</div>
+
 <?php $this->trigger('view.show.after'); ?>
