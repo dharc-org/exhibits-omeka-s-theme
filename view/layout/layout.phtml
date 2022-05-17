@@ -20,6 +20,10 @@ $this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 
 $this->headScript()->appendFile($this->assetUrl('js/global.js', 'Omeka'));
 $this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', 'text/javascript', ['integrity' => 'sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', 'crossorigin' => 'anonymous']);
 
+#stats and  privacy banner
+$this->headScript()->prependFile($this->assetUrl('js/exhibits_stats.js'));
+$this->headScript()->prependFile('https://www.unibo.it/cookies/cookies.js');
+
 $this->trigger('view.layout');
 $title = $site->title();
 $logo = $this->themeSetting('logo');
