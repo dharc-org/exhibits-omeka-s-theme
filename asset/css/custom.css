@@ -414,6 +414,9 @@ nav li li li li li a{
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover {
 	text-decoration: underline;
+	background-color: #99000b !important;
+    color: #ffffff;
+
 	
 }
 
