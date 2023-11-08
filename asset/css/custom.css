@@ -357,7 +357,9 @@ nav li a {
 }
 
 nav li a:hover{
-	color: #99000b;
+	background-color: #99000b;
+	color: rgb(255 255 255)
+
 }
 /* submenu indentation - can be extended */
 nav li li a{
@@ -483,7 +485,7 @@ nav li li li li li a{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-        background-color: #99000b !important;
+    background-color: #99000b !important;
 }
 /*change end*/
 
