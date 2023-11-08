@@ -621,8 +621,8 @@ alredy hidden
 }
 
 
-.nav-pills>li.active>a {
-    background-color: 1px solid rgb(71, 71, 71);
+.active>a {
+    background-color: rgb(71, 71, 71);
 }
 
 /* Social media sharing buttons */
