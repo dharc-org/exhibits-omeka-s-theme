@@ -4,7 +4,7 @@
 //$nav = $container->toArray();
 $menu = $this->navigation()->menu();
 $menu->setULClass("nav nav-pills nav-stacked");
-echo $menu->renderMenu($this->container, ['maxDepth' => 0]);
+echo $menu->renderMenu($this->container, ['minDepth' => 0, 'indent' => 3]);
 ?>
 
 <?php

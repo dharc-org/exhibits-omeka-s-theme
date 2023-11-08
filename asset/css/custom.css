@@ -343,7 +343,82 @@ header .title a {
 }
 
 /* Side Navigation */
+/*change*/ 
+nav li a {
+	color: rgb(0, 0, 0);
+	display: inline-block;
+        text-decoration: none !important;
+        padding-top: 1rem;
+	padding-bottom: 1rem;
+	padding-inline-start: 1em;
+	padding-right: 0.7em;
+	width: 100%;
+	/* padding-right: 27em; */
+}
 
+nav li a:hover{
+	color: #99000b;
+}
+/* submenu indentation - can be extended */
+nav li li a{
+	padding-inline-start: 1.3em;
+}
+
+nav li li li a{
+	padding-inline-start: 3em;
+}
+
+nav li li li li a{
+	padding-inline-start: 4em;
+}
+
+nav li li li li li a{
+	padding-inline-start: 5em;
+}
+
+#mainnav li::marker {
+	color: transparent !important;
+	display: none !important;
+}
+
+/*2level and 3level hide*/
+#mainnav ul ul{
+	display:none;
+}
+
+/*2 level in hover*/
+#mainnav li:hover ul{ 
+	display:block;
+}
+
+
+#mainnav>.nav>li>a {
+	background-color: #000 ;
+	color:rgb(255, 255, 255) !important;
+	padding: 1rem;
+	display: block;
+	/* width:100%; */
+	margin:auto;
+	border-radius:0;
+}
+
+#mainnav>.nav>li>a, 
+.second-level-menu>li>a {
+	border-top: 2px solid #474747;
+}
+
+
+
+#mainnav>.nav>li>a:focus, 
+#mainnav>.nav>li>a:hover {
+	text-decoration: underline;
+	
+}
+
+
+
+
+/*change end*/
 #search .form-control {
 	padding:0px 5px;
 	border: 1px solid #337ab7;
@@ -360,10 +435,59 @@ header .title a {
 #side_navigation nav {
 	font-size:1.5em;
 	font-family: 'Crimson Text', serif;
-	letter-spacing: 0.5px;
+/*	letter-spacing: 0.5px; */
 /*	border-top:#337ab7 solid 5px;*/
 }
+/*change*/
+#mainnav>.nav>li {
+	background-color:#000;
+	display:block;
+	margin:0;
+}
+ 
+/*2 level active*/
+#mainnav li.active ul, #mainnav li:hover ul{
+	display:block;
+	padding-inline-start: 0em;
+}
 
+#mainnav li.active>li>li, #mainnav li:hover>li>li {
+	border-top: 2px solid #b3b3b3;
+}
+
+#mainnav li.active li+li, #mainnav li:hover li+li {
+	border-top: 2px solid #b3b3b3;
+}
+
+/*3level active*/
+.nav li.active li li, .nav li:hover li li{
+	border-top: 2px solid #b3b3b3;
+	
+}
+
+/*under selected menu voice*/
+#side_navigation nav li.active, #side_navigation nav li:hover {
+	background-color:#bdbdbd;/* 12*/
+}
+
+#side_navigation nav li.active + li>a, 
+#side_navigation nav li.open + li>a {
+	border-top:none;
+}
+
+#side_navigation nav li:first-of-type a {
+	border-top:none;
+	
+}
+
+.nav-active>a{
+	width: 100%;
+	color: white !important;
+        background-color: #99000b !important;
+}
+/*change end*/
+
+/*
 #mainnav>.nav>li {
 	background-color:#000;
 	display:block;
@@ -376,7 +500,7 @@ header .title a {
 	border-radius:0;
 	margin-left: -2px;
 	margin-right:-2px;
-	/*font-size: 25px;*/
+	
 }
 
 #side_navigation nav li.active>a, 
@@ -393,11 +517,11 @@ header .title a {
 /*#mainnav>ul>li:first-of-type{
     border-top:#337ab7 solid 5px;
 }*/
-
+/*
 #mainnav>ul>li:last-of-type {
-	padding-bottom:5px;
+	padding-bottom:5px;*/
 /*	border-bottom:#337ab7 solid 5px;*/
-}
+/*}
 
 #side_navigation nav li:first-of-type a {
 	border-top:none;
@@ -433,7 +557,11 @@ header .title a {
 	background-color:#2f2f2f;
 }
 
-/*.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
+ old css now modified*/
+ 
+/*
+alredy hidden
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus{
 	background-color:initial;
 	border-color:grey;
 }*/
@@ -840,6 +968,11 @@ footer .footer-text {
 		border-radius: 5px;
 		border-spacing: 20px;*/
 	}
+
+	
+	nav li a {
+	/* padding-right: 8em; */
+	}
 	
 }
 
@@ -1075,3 +1208,18 @@ video {
     }
 
 }
+
+/*change*/
+
+@media (max-width: 768px) {
+
+	#side_navigation nav li.active, #side_navigation nav li:hover {
+		background-color: #bdbdbd !important;
+	}
+
+	nav li a {
+		color: rgb(0, 0, 0);
+	}
+}
+
+/*change end*/

@@ -16,14 +16,16 @@ $this->headLink()->appendStylesheet('//fonts.googleapis.com/css2?family=Cormoran
 $this->headLink()->appendStylesheet('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css', 'screen', false, ['integrity' => 'sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u', 'crossorigin' => 'anonymous']);
 $this->headLink()->appendStylesheet($this->assetUrl('css/custom.css'));
 //$this->headScript()->prependFile($this->assetUrl('js/default.js'));
+$this->headScript()->prependFile($this->assetUrl('js/dharc.js'));
 $this->headScript()->prependFile($this->assetUrl('vendor/jquery/jquery.min.js', 'Omeka'));
 $this->headScript()->appendFile($this->assetUrl('js/global.js', 'Omeka'));
 $this->headScript()->appendFile('//maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js', 'text/javascript', ['integrity' => 'sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa', 'crossorigin' => 'anonymous']);
 
 #stats and  privacy banner
-$this->headScript()->prependFile($this->assetUrl('js/exhibits_stats.js'));
-$this->headScript()->prependFile('https://www.unibo.it/cookies/cookies.js');
-
+#$this->headScript()->prependFile($this->assetUrl('js/stats1.js'));
+#$this->headScript()->prependFile($this->assetUrl('js/stats2.js'));
+$this->headScript()->appendFile($this->assetUrl('js/stats.js'));
+$this->headScript()->appendFile('https://www.unibo.it/++resource++unibo.cookiebanner/unibo-cookies.min.js?v=17');
 $this->trigger('view.layout');
 $title = $site->title();
 $logo = $this->themeSetting('logo');
@@ -76,7 +78,7 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
 				</a>
 			<?php else: ?>
 			    <!-- top left Site Title -->
-				<a class="navbar-brand" href="../"><h1>FICLIT Online Exhibition</h1></a>
+			<!-- <a class="navbar-brand" href="../"><h1>FICLIT Online Exhibition</h1></a> -->
 				
 			<?php endif; ?>
 			</div><!--/navbar-header-->
@@ -108,18 +110,25 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
 	<!--Online Exhibition nav (if any)-->
 		<div class="row">
 			<div class="col-md-3" id="side_navigation">
-				<nav>
+			<nav>
 					<div class="collapse navbar-collapse" id="mainnav">
-													   <!--Exhibition Search-->
+						<!--Exhibition Search-->
 						<div id="search">
 							<?php echo $this->partial('common/search-form'); ?>
 						</div>
+
+						<!--Side Navigation-->
 						<?php
-						echo $site->publicNav()->menu()->renderPartial(null, "common/main-navigation");
-						?>
+                		echo $site->publicNav()->menu()->renderMenu(null, [
+                    	'ulClass' => 'nav nav-pills nav-stacked',
+                    	'indent' => 3,
+                    	'minDepth' => 0
+                		]);
+                		?>
+
 					</div>
 				</nav>
-			</div><!--Side Navigation-->
+			</div>
       
         	<div class="col-md-9" id="content" role="main">
         		<div class="row" id="content_row1">
