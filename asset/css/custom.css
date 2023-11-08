@@ -395,8 +395,8 @@ nav li li li li li a{
 
 
 #mainnav>.nav>li>a {
-	background-color: #000 ;
-	color:rgb(255, 255, 255) !important;
+	background-color: #bdbdbd ;
+	color:rgb(0, 0, 0) !important;
 	padding: 1rem;
 	display: block;
 	/* width:100%; */
@@ -491,11 +491,11 @@ nav li li li li li a{
     background-color: #99000b !important;
 }
 
-
+/* COLORI ACTIVE
 .active>a {
-    background-color: rgb(71, 71, 71);
+    background-color: #bdbdbd
 }
-
+/*
 .active > a ~ a {
     background-color: #bdbdbd;
 }
