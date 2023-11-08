@@ -12,40 +12,41 @@ Follow the documentation at: https://omeka.org/s/docs/user-manual/sites/site_the
 
 ### Project treeview
 ```
-.
 ├── asset
-│   ├── css
-│   │   └── custom.css
-│   └── js
-│       ├── default.js
-│       └── videofix.js
+│   ├── css
+│   │   └── custom.css
+│   └── js
+│       ├── default.js
+│       ├── dharc.js
+│       ├── stats.js
+│       └── videofix.js
 ├── config
-│   └── theme.ini
+│   └── theme.ini
 ├── LICENSE
 ├── README.md
 ├── theme.jpg
 └── view
     ├── common
-    │   ├── advanced-search
-    │   │   ├── item-sets.phtml
-    │   │   ├── properties.phtml
-    │   │   ├── resource-class.phtml
-    │   │   └── site-pool.phtml
-    │   ├── form-row.phtml
-    │   ├── main-navigation.phtml
-    │   ├── pagination.phtml
-    │   ├── search-form.phtml
-    │   ├── site-list-entry.phtml
-    │   └── site-page-pagination.phtml
+    │   ├── advanced-search
+    │   │   ├── item-sets.phtml
+    │   │   ├── properties.phtml
+    │   │   ├── resource-class.phtml
+    │   │   └── site-pool.phtml
+    │   ├── form-row.phtml
+    │   ├── main-navigation.phtml
+    │   ├── pagination.phtml
+    │   ├── search-form.phtml
+    │   ├── site-list-entry.phtml
+    │   └── site-page-pagination.phtml
     ├── layout
-    │   └── layout.phtml
+    │   └── layout.phtml
     └── omeka
         └── site
             ├── item
-            │   ├── browse.phtml
-            │   └── show.phtml
+            │   ├── browse.phtml
+            │   └── show.phtml
             ├── media
-            │   └── show.phtml
+            │   └── show.phtml
             └── page
                 ├── main-navigation.phtml
                 ├── navigation.phtml
