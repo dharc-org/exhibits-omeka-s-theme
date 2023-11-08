@@ -492,9 +492,14 @@ nav li li li li li a{
 }
 
 
-/*li.active > a ~ a {
+.active>a {
+    background-color: rgb(71, 71, 71);
+}
+
+.active > a ~ a {
     background-color: #bdbdbd;
 }
+
 /*change end*/
 
 /*
@@ -621,9 +626,6 @@ alredy hidden
 }
 
 
-.active>a {
-    background-color: rgb(71, 71, 71);
-}
 
 /* Social media sharing buttons */
 #sharing-buttons{
