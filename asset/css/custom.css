@@ -495,7 +495,7 @@ li.active > a {
     background-color: 1px solid rgb(71, 71, 71);
 }
 
-li.active > a ~ a {
+/*li.active > a ~ a {
     background-color: #bdbdbd;
 }
 /*change end*/
