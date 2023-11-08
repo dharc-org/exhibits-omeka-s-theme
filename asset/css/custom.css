@@ -491,11 +491,11 @@ nav li li li li li a{
     background-color: #99000b !important;
 }
 
-.active > a {
+li.active > a {
     background-color: 1px solid rgb(71, 71, 71);
 }
 
-.active > a ~ a {
+li.active > a ~ a {
     background-color: #bdbdbd;
 }
 /*change end*/
