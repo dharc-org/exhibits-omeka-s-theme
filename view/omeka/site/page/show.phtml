@@ -10,7 +10,9 @@ $activePage = $nav->findActive($container);
 if ($activePage):
 ?>
     <?php if ($activePage['depth'] !== 0): ?>
-    <nav class="breadcrumbs"></nav>
+    <nav class="breadcrumbs">
+        <?php echo $nav->breadcrumbs(); ?>
+    </nav>
     <?php endif; ?>
 <?php endif; ?>
 
