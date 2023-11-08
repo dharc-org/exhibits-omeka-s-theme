@@ -491,9 +491,6 @@ nav li li li li li a{
     background-color: #99000b !important;
 }
 
-.active>a {
-    background-color: 1px solid rgb(71, 71, 71);
-}
 
 /*li.active > a ~ a {
     background-color: #bdbdbd;
@@ -617,11 +614,17 @@ alredy hidden
 	background-color:#99000b;
 }
 
-.sub-menu>.nav-pills>li.active>a,
+
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover {
 	background-color:#99000b;
 }
+
+
+.nav-pills>li.active>a {
+    background-color: 1px solid rgb(71, 71, 71);
+}
+
 /* Social media sharing buttons */
 #sharing-buttons{
 	text-align:right;
