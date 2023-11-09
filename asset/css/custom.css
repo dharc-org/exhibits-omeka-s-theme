@@ -440,7 +440,7 @@ nav li li li li li a{
 #mainnav li a:hover {
 	text-decoration: underline;
 	background-color: #B94836 !important;
-    color: #ffffff;
+    color: #ffffff !important;
 
 	
 }
