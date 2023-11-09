@@ -357,8 +357,9 @@ nav li a {
 }
 
 nav li a:hover{
-	background-color: #B94836;
-	color: rgb(255 255 255)
+	background-color: #97ff80;
+	color: rgb(255 255 255);
+	border-top: none;
 
 }
 /* submenu indentation - can be extended */
