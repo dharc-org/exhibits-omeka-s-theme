@@ -506,7 +506,7 @@ nav li li li li li a{
     background-color: #B94836 !important;
 }
 
-.active> ul:first-child{
+.active> ul{
 padding-left: 1em;
 }
 
