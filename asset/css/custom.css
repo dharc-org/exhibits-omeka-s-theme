@@ -483,6 +483,10 @@ nav li li li li li a{
 
 /*under selected menu voice*/
 #side_navigation nav li.active, #side_navigation nav li:hover {
+	/* 12*/
+}
+
+#side_navigation nav li.active {
 	background-color:#222222;/* 12*/
 }
 
