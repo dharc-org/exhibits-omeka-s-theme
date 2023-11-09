@@ -427,6 +427,8 @@ nav li li li li li a{
 #search .form-control {
 	padding:0px 5px;
 	border: 1px solid #B94836;
+	box-shadow: none;
+	height: 3.5em
 }
 
 #side_navigation {
@@ -444,6 +446,13 @@ nav li li li li li a{
 /*	border-top:#337ab7 solid 5px;*/
 }
 /*change*/
+
+.btn-primary{
+	background-color: #B94836;
+    border-color: #B94836;
+	height: 3.5em;
+}
+
 #mainnav>.nav>li {
 	background-color:#000;
 	display:block;
@@ -821,6 +830,7 @@ alredy hidden
 
 .breadcrumbs {
 	padding-bottom:1rem;
+	font-size: 1.3em;
 }
 
 footer {
