@@ -444,8 +444,15 @@ nav li li li li li a{
 	text-decoration: underline;
 	background-color: #3fb936 !important;
     color: #ffffff !important;
-	border-top: none;
-	
+	border-top: none;	
+}
+
+#mainnav li a:hover {
+	border-top: none;	
+}
+
+#mainnav li a:hover + li a {
+	border-top: none;	
 }
 
 /*
