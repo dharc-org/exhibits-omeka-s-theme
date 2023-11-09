@@ -431,6 +431,7 @@ nav li li li li li a{
 }
 
 #mainnav li:not(.active):hover a{
+	color: #000000;
 	background-color: #E6E8E6;
 }
 
