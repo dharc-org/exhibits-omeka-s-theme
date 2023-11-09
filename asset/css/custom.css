@@ -431,17 +431,14 @@ nav li li li li li a{
 }
 
 #mainnav li:not(.active):hover a{
-	background-color: #0bff0b;
+	background-color: #E6E8E6;
 }
 
-#mainnav li:hover a{
-	background-color: #ff0bda;
-}
 
 #mainnav li a:focus, 
 #mainnav li a:hover {
 	text-decoration: underline;
-	background-color: #673dff !important;
+	background-color: #B94836 !important;
     color: #ffffff;
 
 	
