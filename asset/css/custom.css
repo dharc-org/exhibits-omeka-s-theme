@@ -424,11 +424,13 @@ nav li li li li li a{
 	margin:auto;
 	border-radius:0;
 }
+/*hidden now
 
 #mainnav>.nav>li>a, 
 .second-level-menu>li>a {
 	border-top: 2px solid #474747;
 }
+*/
 
 #mainnav li:not(.active):hover a{
 	color: #000000;
