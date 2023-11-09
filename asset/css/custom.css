@@ -355,13 +355,13 @@ nav li a {
 	width: 100%;
 	/* padding-right: 27em; */
 }
-
+/*
 nav li a:hover{
-	background-color: #97ff80;
+	background-color: #B94836;
 	color: rgb(255 255 255);
-	border-top: none;
-
 }
+*/
+
 /* submenu indentation - can be extended */
 nav li li a{
 	padding-inline-start: 1.3em;
@@ -732,13 +732,13 @@ alredy hidden
 
 .sub-menu>.nav>li>a:focus, 
 .sub-menu>.nav>li>a:hover {
-	background-color:#B94836;
+	background-color:#36b945;
 }
 
 
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover {
-	background-color:#B94836;
+	background-color:#4a36b9;
 }
 
 
