@@ -396,12 +396,12 @@ nav li li li li li a{
 
 #mainnav li:hover:not(.active) ul{ 
 	margin-left: 1em;
-	background-color: #224f77 !important;
+	
 }
 
 #mainnav .active li:hover:not(.active) ul{ 
 	margin-left: 0em;
-	background-color: #227725 !important;
+	
 }
 
 
