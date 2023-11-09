@@ -396,7 +396,7 @@ nav li li li li li a{
 
 #mainnav>.nav>li>a {
 	background-color: #222222 ;
-	color:rgb(255, 255, 255) !important;
+	color:rgb(255, 255, 255);
 	padding: 1rem;
 	display: block;
 	/* width:100%; */
@@ -506,7 +506,9 @@ nav li li li li li a{
     background-color: #B94836 !important;
 }
 
-
+.active> ul:first-child{
+padding-left: 1em;
+}
 
 /*
 .active > a ~ a {
