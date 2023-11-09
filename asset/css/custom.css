@@ -455,6 +455,10 @@ nav li li li li li a{
 	border-top: none;	
 }
 
+#mainnav li>a.active+li>a {
+	border-top: none;	
+}
+
 /*
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover {
