@@ -451,7 +451,7 @@ nav li li li li li a{
 	border-top: none;	
 }
 
-#mainnav li a:hover + li a {
+#mainnav li>a:hover+li>a {
 	border-top: none;	
 }
 
