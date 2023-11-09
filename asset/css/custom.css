@@ -516,7 +516,7 @@ nav li li li li li a{
 }
 /*BORDERS*/
 .nav>li>a {
-	border-top: 2px solid #b3b3b3;
+	border-top: 2px solid #3b3b3b;
 }
 .nav>li:first-child>a {
 	border-top: none;
@@ -528,14 +528,14 @@ nav li li li li li a{
 */
 
 .nav>li.active>ul>li>a {
-	border-top: 2px solid #b3b3b3;
+	border-top: 2px solid #dddada;
 }
 .nav>li.active>ul>li>ul>li>a {
-	border-top: 2px solid #b3b3b3;
+	border-top: 2px solid #dddada;
 }
 
 .nav>li.active>ul>li>ul>li>ul>li>a {
-	border-top: 2px solid #b3b3b3;
+	border-top: 2px solid #dddada;
 }
 
 
