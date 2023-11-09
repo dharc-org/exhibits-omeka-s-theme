@@ -489,7 +489,7 @@ nav li li li li li a{
 	margin-left: 1em;
 }
 
-#mainnav li.active:hover a{
+#mainnav li:not(.active):hover a{
 	background-color: #0bff0b;
 }
 
