@@ -391,6 +391,7 @@ nav li li li li li a{
 /*2 level in hover*/
 #mainnav li:hover ul{ 
 	display:block;
+	margin-left: 1em;
 }
 
 
