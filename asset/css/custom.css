@@ -442,9 +442,9 @@ nav li li li li li a{
 #mainnav li a:focus, 
 #mainnav li a:hover {
 	text-decoration: underline;
-	background-color: #B94836 !important;
+	background-color: #3fb936 !important;
     color: #ffffff !important;
-
+	border-top: none;
 	
 }
 
@@ -732,13 +732,13 @@ alredy hidden
 
 .sub-menu>.nav>li>a:focus, 
 .sub-menu>.nav>li>a:hover {
-	background-color:#36b945;
+	background-color:#B94836;
 }
 
 
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover {
-	background-color:#4a36b9;
+	background-color:#B94836;
 }
 
 
