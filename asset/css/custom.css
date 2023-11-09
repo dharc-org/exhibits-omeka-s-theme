@@ -1248,7 +1248,7 @@ video {
 @media (max-width: 768px) {
 
 	#side_navigation nav li.active, #side_navigation nav li:hover {
-		background-color: #E6E8E6 !important;
+		background-color: #222222 !important;
 	}
 
 	nav li a {
