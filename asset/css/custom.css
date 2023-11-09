@@ -425,8 +425,8 @@ nav li li li li li a{
 
 /*change end*/
 #search .form-control {
-	padding:0px 5px;
-	border: 1px solid #B94836;
+	
+	border: 1px solid #888888;
 	box-shadow: none;
 	height: 3.5em
 }
@@ -451,6 +451,7 @@ nav li li li li li a{
 	background-color: #B94836;
     border-color: #B94836;
 	height: 3.5em;
+	padding:1em;
 }
 
 #mainnav>.nav>li {
