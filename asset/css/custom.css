@@ -434,7 +434,9 @@ nav li li li li li a{
 	background-color: #0bff0b;
 }
 
-
+#mainnav li:hover a{
+	background-color: #ff0bda;
+}
 
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover {
