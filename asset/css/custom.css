@@ -404,12 +404,12 @@ nav li li li li li a{
 	
 }
 
-#mainnav .active li>li:hover:not(.active) ul{ 
+#mainnav li>li:hover:not(.active) ul{ 
 	margin-left: 0em;
 	
 }
 
-#mainnav .active li>li>li:hover:not(.active) ul{ 
+#mainnav li>li>li:hover:not(.active) ul{ 
 	margin-left: 0em;
 	
 }
