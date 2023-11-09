@@ -442,22 +442,12 @@ nav li li li li li a{
 #mainnav li a:focus, 
 #mainnav li a:hover {
 	text-decoration: underline;
-	background-color: #3fb936 !important;
+	background-color: #B94836  !important;
     color: #ffffff !important;
 	border-top: none;	
 }
 
-#mainnav li a:hover {
-	border-top: none;	
-}
 
-#mainnav li>a:hover+li>a {
-	border-top: none;	
-}
-
-#mainnav li>a.active+li>a {
-	border-top: none;	
-}
 
 /*
 #mainnav>.nav>li>a:focus, 
