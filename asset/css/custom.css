@@ -357,7 +357,7 @@ nav li a {
 }
 
 nav li a:hover{
-	background-color: #99000b;
+	background-color: #B94836;
 	color: rgb(255 255 255)
 
 }
@@ -629,13 +629,13 @@ alredy hidden
 
 .sub-menu>.nav>li>a:focus, 
 .sub-menu>.nav>li>a:hover {
-	background-color:#99000b;
+	background-color:#B94836;
 }
 
 
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover {
-	background-color:#99000b;
+	background-color:#B94836;
 }
 
 
