@@ -482,19 +482,19 @@ nav li li li li li a{
 }
  
 /*2 level active*/
-#mainnav li.active ul, #mainnav li:hover ul{
+#mainnav li.nav-active ul, #mainnav li:hover ul{
 	display:block;
 	padding-inline-start: 0em;
 	background-color: #E6E8E6;
 	margin-left: 1em;
 }
 
-#mainnav li.active ul ul, #mainnav li:hover ul ul{
+#mainnav li.nav-active ul ul, #mainnav li:hover ul ul{
 	
 	margin-left: 0em;
 }
 
-#mainnav li.active ul ul ul, #mainnav li:hover ul ul ul{
+#mainnav li.nav-active ul ul ul, #mainnav li:hover ul ul ul{
 	
 	margin-left: 0em;
 }
