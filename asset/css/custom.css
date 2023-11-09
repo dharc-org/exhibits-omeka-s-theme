@@ -522,9 +522,14 @@ nav li li li li li a{
 	border-top: none;
 }
 
-.nav>li.active:first-child>a {
+.nav>li.active>a {
 	border-bottom: 2px solid #ff2424;
 }
+
+.nav>li.active ~ .li.active>a {
+	border-bottom: 2px solid #ff2424;
+}
+
 
 /*hidden now
 
