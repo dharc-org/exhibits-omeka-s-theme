@@ -395,7 +395,7 @@ nav li li li li li a{
 
 
 #mainnav>.nav>li>a {
-	background-color: #000 ;
+	background-color: #222222 ;
 	color:rgb(255, 255, 255) !important;
 	padding: 1rem;
 	display: block;
@@ -482,7 +482,7 @@ nav li li li li li a{
 
 /*under selected menu voice*/
 #side_navigation nav li.active, #side_navigation nav li:hover {
-	background-color:#bdbdbd;/* 12*/
+	background-color:#E6E8E6;/* 12*/
 }
 
 #side_navigation nav li.active + li>a, 
@@ -496,7 +496,7 @@ nav li li li li li a{
 }
 
 .active>a {
-    background-color: #bdbdbd !important;
+    background-color: #E6E8E6 !important;
 	color: rgb(0, 0, 0) !important;
 }
 
@@ -1246,7 +1246,7 @@ video {
 @media (max-width: 768px) {
 
 	#side_navigation nav li.active, #side_navigation nav li:hover {
-		background-color: #bdbdbd !important;
+		background-color: #E6E8E6 !important;
 	}
 
 	nav li a {
