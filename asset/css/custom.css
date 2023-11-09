@@ -503,12 +503,20 @@ nav li li li li li a{
 
 /*under selected menu voice*/
 #side_navigation nav li.active, #side_navigation nav li:hover {
-	/* 12*/
+	background-color:#222222;
 }
 
 #side_navigation nav li.active {
-	background-color:#222222;/* 12*/
+	background-color:#222222;
 }
+
+/*duplicato linea 484*/
+#mainnav li.active ul, #mainnav li:hover ul{
+	display:block;
+	padding-inline-start: 0em;
+	background-color: #E6E8E6;
+}
+/*duplicato linea 484*/
 
 #side_navigation nav li.active + li>a, 
 #side_navigation nav li.open + li>a {
