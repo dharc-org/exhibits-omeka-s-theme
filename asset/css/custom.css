@@ -518,7 +518,7 @@ nav li li li li li a{
 .nav>li>a {
 	border-top: 2px solid #b3b3b3;
 }
-.nav>li>a:first-child {
+.nav>li:first-child>a {
 	border-top: none;
 }
 /*hidden now
