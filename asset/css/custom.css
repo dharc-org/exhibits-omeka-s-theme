@@ -76,8 +76,8 @@ form {
 
 
 .form-control:focus {
-	border-color: #337ab7;
-	box-shadow: inset 0 0 4px 2px #99000b;
+	border-color: #B94836;
+	box-shadow: inset 0 0 4px 2px #B94836;
 }
 
 /* #skip_links */
@@ -89,7 +89,7 @@ form {
 }
 
 .skip_links--link:focus {
-	background:#99000b;
+	background:#B94836;
 	color:#fff;
 	width:100%;
 	display:block;
@@ -131,7 +131,7 @@ form {
 .navbar-nav>li + li::before {
   content: '|';
   margin-top: 11.5px;
-  color: #337ab7;
+  color: #99000b;
 }
 
 /*here whole part with the top left title*/
@@ -172,13 +172,13 @@ form {
 }
 
 #quicklinks a {
-	color:#337ab7;
+	color:#99000b;
 	padding:0;
 	margin:10px 0 0 10px;
 }
 
 #quicklinks a:hover, #quicklinks a:focus {
-	border-bottom:solid #337ab7 2px;
+	border-bottom:solid #B94836 2px;
 }
 
 /* .navbar #quicklinks #search-utas */
@@ -414,7 +414,7 @@ nav li li li li li a{
 #mainnav>.nav>li>a:focus, 
 #mainnav>.nav>li>a:hover {
 	text-decoration: underline;
-	background-color: #99000b !important;
+	background-color: #B94836 !important;
     color: #ffffff;
 
 	
@@ -426,7 +426,7 @@ nav li li li li li a{
 /*change end*/
 #search .form-control {
 	padding:0px 5px;
-	border: 1px solid #337ab7;
+	border: 1px solid #B94836;
 }
 
 #side_navigation {
@@ -493,7 +493,7 @@ nav li li li li li a{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-    background-color: #99000b !important;
+    background-color: #B94836 !important;
 }
 
 
