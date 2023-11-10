@@ -514,7 +514,7 @@ li.nav-active>ul{
 }
 
 /*hover ,  #mainnav li:hover>ul*/
-#mainnav li.nav-active>ul, #mainnav li:hover>ul{
+#mainnav li.nav-active>ul, #mainnav .nav>li:hover>ul{
 	margin-left: 1em;
 }
 
