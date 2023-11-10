@@ -448,7 +448,7 @@ nav li li li li li a{
 }
 
 #mainnav li.nav-active>a:first-of-type{
-	border-top: none;	
+	border-top: none !important;	
 }
 
 
@@ -604,6 +604,7 @@ nav li li li li li a{
 .active>a {
     background-color: #E6E8E6 !important;
 	color: rgb(0, 0, 0) !important;
+	border-top: 2px solid #dddada !important;
 }
 
 .nav-active>a{
