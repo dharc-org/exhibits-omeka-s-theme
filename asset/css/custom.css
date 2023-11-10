@@ -532,10 +532,12 @@ li.nav-active>ul{
 #mainnav li.active ul, #mainnav li:hover ul{
 	display:block;
 	padding-inline-start: 0em;
-	animation-name: appear;
-	animation-duration: 8s;
+	
 }
 
+/*animation-name: appear;
+	animation-duration: 8s;
+	*/
 
 
 /*hover ,  #mainnav li:hover>ul*/
