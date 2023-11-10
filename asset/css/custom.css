@@ -1010,11 +1010,13 @@ footer .new-footer {
 	display: flex;
 	justify-content:stretch;
 	justify-content:center;
+	flex-wrap: wrap;
 }
 
 footer .first-section {
 	vertical-align: top;
 	width: 50%;
+	min-width: 15em;
 	display: inline-block;
 	box-sizing: border-box;
 }
@@ -1022,6 +1024,7 @@ footer .first-section {
 footer .second-section {
 	vertical-align: top;
 	width: 50%;
+	min-width: 15em;
 	display: inline-block;
 	box-sizing: border-box;
 	/*position: absolute;*/
