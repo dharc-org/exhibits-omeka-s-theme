@@ -15,6 +15,7 @@ html {
 h2, h3, #type-title {
 	font-family: "Cardo", serif;
 }
+
 h1, .h1 {
 	font-size:1.7em;
 	font-family: "Libre Baskerville", serif;
@@ -67,7 +68,7 @@ a.footer-a:hover {
 }
 
 a:hover, a:focus {
-	color: #224f77;
+	color: #99000b;
 }
 
 form {
@@ -499,6 +500,12 @@ li.nav-active>ul{
     border-color: #B94836;
 	height: 3.5em;
 	padding:1em;
+}
+
+.btn-primary:hover{
+	background-color: #99000b;
+    border-color: #99000b;
+	
 }
 
 #mainnav>.nav>li {
