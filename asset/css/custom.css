@@ -515,7 +515,7 @@ li.nav-active>ul{
 	margin-left: 1em;*/
 }
 
-#mainnav li.active>ul, #mainnav li:hover>ul{
+#mainnav li.nav-active>ul, #mainnav li:hover>ul{
 	background-color: #E6E8E6;
 	margin-left: 1em;
 }
