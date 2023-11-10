@@ -128,7 +128,7 @@ form {
 }
 
 .navbar {
-	min-height: 90px;
+	min-height: 6em;
 }
 
 .navbar-nav>li {
@@ -295,7 +295,7 @@ header .title a {
 	}
 	
 	.topspace {
-		min-height:250px;
+		min-height:12em;
 		background-color:initial;
 	}
 	
