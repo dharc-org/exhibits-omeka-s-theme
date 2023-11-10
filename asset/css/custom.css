@@ -521,12 +521,21 @@ li.nav-active>ul{
 	display:block;
 	margin:0;
 }
+
+@keyframes appear {
+	from {display:none;}
+  	to {display:block;}
+}
  
 /*2 level active*/
 #mainnav li.active ul, #mainnav li:hover ul{
-	display:block;
+	
 	padding-inline-start: 0em;
+	animation-name: appear;
+	animation-duration: 4s;
 }
+
+
 
 /*hover ,  #mainnav li:hover>ul*/
 #mainnav li.nav-active>ul, #mainnav .nav>li:hover>ul{
