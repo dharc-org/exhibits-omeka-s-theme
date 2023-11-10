@@ -451,7 +451,7 @@ nav li li li li li a{
 	border-top: none !important;	
 }
 
-li.nav-active ul{
+li.nav-active>ul{
 	margin-left: 1rem;
 }
 
