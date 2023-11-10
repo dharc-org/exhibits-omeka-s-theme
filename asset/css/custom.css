@@ -541,7 +541,7 @@ li.nav-active>ul{
 .nav-pills>li>a {
 	border-top: 2px solid #3b3b3b;
 }
-.nav-pills>li:first-child>a {
+.nav-pills li:first-child>a {
 	border-top: none;
 }
 /*main menu titles have a top border except the first one*/
