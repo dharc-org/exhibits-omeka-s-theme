@@ -1009,6 +1009,7 @@ footer .new-footer {
 	text-align: center;
 	display: flex;
 	justify-content:stretch;
+	justify-content:center;
 }
 
 footer .first-section {
