@@ -1022,12 +1022,15 @@ footer .first-section {
 	vertical-align: top;
 	width: 50%;
 	display: inline-block;
+	text-align: left;
 	box-sizing: border-box;
 }
 
 footer .second-section {
 	vertical-align: top;
-	width: 100%;
+	margin-left: 35px;
+	max-width: 300px;
+	text-align: left;
 	display: inline-block;
 	box-sizing: border-box;
 	/*position: absolute;*/
@@ -1039,6 +1042,7 @@ footer .footer-title {
 	font-size: 20px;
 	font-weight: 300;
 	
+	text-align: left;
 }
 
 footer .footer-text {
