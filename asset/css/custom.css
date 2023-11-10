@@ -512,7 +512,9 @@ li.nav-active>ul{
 	display:block;
 	padding-inline-start: 0em;
 }
-#mainnav li.nav-active>ul, #mainnav li:hover>ul{
+
+/*hover ,  #mainnav li:hover>ul*/
+#mainnav li.nav-active>ul{
 	margin-left: 1em;
 }
 
@@ -520,13 +522,13 @@ li.nav-active>ul{
 	background-color: #E6E8E6;
 }
 
+/*hover ,  .nav>li:hover>ul>ul , .nav>li:hover>ul>ul>ul */
 
-
-.nav>li.nav-active>ul>ul, .nav>li:hover>ul>ul{
+.nav>li.nav-active>ul>ul {
 	margin-left: 0em;
 }
 
-.nav>li.active>ul>ul>ul, .nav>li:hover>ul>ul>ul{
+.nav>li.active>ul>ul>ul{
 	margin-left: 0em;
 }
 
