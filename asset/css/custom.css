@@ -523,8 +523,9 @@ li.nav-active>ul{
 }
 
 @keyframes appear {
-	from {display:none;}
-  	to {display:block;}
+	0% {display:none;}
+	50%  {background-color: yellow;}
+  	100% {display:block;}
 }
  
 /*2 level active*/
