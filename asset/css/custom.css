@@ -521,19 +521,19 @@ li.nav-active>ul{
 	display:block;
 	margin:0;
 }
-
+/*animation*/
 @keyframes appear {
 	0% {display:none;}
 	50%  {background-color: yellow;}
-  	100% {display:block;}
+  	100% {}
 }
  
 /*2 level active*/
 #mainnav li.active ul, #mainnav li:hover ul{
-	
+	display:block;
 	padding-inline-start: 0em;
 	animation-name: appear;
-	animation-duration: 4s;
+	animation-duration: 8s;
 }
 
 
