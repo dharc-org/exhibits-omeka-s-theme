@@ -368,15 +368,15 @@ nav li li a{
 }
 
 nav li li li a{
-	padding-inline-start: 3em;
+	padding-inline-start: 2.6em;
 }
 
 nav li li li li a{
-	padding-inline-start: 4em;
+	padding-inline-start: 3.9em;
 }
 
 nav li li li li li a{
-	padding-inline-start: 5em;
+	padding-inline-start: 5.2em;
 }
 
 #mainnav li::marker {
@@ -451,6 +451,9 @@ nav li li li li li a{
 	border-top: none !important;	
 }
 
+li.nav-active ul{
+	margin-left: 1rem;
+}
 
 /*
 #mainnav>.nav>li>a:focus, 
