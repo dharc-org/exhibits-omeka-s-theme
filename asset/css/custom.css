@@ -538,10 +538,10 @@ li.nav-active>ul{
 
 
 /*BORDERS*/
-.nav>li>a {
+.nav-pills .nav>li>a {
 	border-top: 2px solid #3b3b3b;
 }
-.nav>li:first-child>a {
+.nav-pills .nav>li:first-child>a {
 	border-top: none;
 }
 /*main menu titles have a top border except the first one*/
