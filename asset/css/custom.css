@@ -511,13 +511,13 @@ li.nav-active>ul{
 #mainnav li.active ul, #mainnav li:hover ul{
 	display:block;
 	padding-inline-start: 0em;
-	background-color: #E6E8E6;
-	/*margin-left: 1em;*/
-}
-
-#mainnav li.nav-active>ul, #mainnav li:hover>ul{
 	
 	margin-left: 1em;
+}
+
+#mainnav li.nav-active>ul:not(.active){
+	
+	background-color: #E6E8E6;
 }
 
 
