@@ -444,7 +444,7 @@ nav li li li li li a{
 	text-decoration: underline;
 	background-color: #B94836  !important;
     color: #ffffff !important;
-	border-top: none;	
+	border-top: none !important;	
 }
 
 #mainnav li.nav-active>a:first-of-type{
