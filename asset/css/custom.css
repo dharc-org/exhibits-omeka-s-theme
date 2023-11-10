@@ -508,9 +508,14 @@ li.nav-active>ul{
 }
  
 /*2 level active*/
-#mainnav li.active>ul, #mainnav li:hover ul{
+#mainnav li.active ul, #mainnav li:hover ul{
 	display:block;
 	padding-inline-start: 0em;
+	background-color: #E6E8E6;
+	margin-left: 1em;
+}
+
+#mainnav li.active>ul, #mainnav li:hover>ul{
 	background-color: #E6E8E6;
 	margin-left: 1em;
 }
