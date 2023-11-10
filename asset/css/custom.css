@@ -1021,6 +1021,7 @@ footer .first-section {
 
 footer .second-section {
 	vertical-align: top;
+	width: 50%;
 	display: inline-block;
 	box-sizing: border-box;
 	/*position: absolute;*/
