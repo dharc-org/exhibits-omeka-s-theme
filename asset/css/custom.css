@@ -522,7 +522,7 @@ li.nav-active>ul{
 	background-color: #E6E8E6;
 }
 
-#mainnav li.nav-active~li:not(.active)>ul{
+#mainnav li.nav-active + li:not(.active)>ul{
 	background-color: #E6E8E6;
 }
 
