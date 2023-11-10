@@ -353,11 +353,11 @@ header .title a {
 
 /* Side Navigation */
 /*change*/ 
-nav li a {
+.nav-pills li a {
 	color: rgb(0, 0, 0);
 	display: inline-block;
-        text-decoration: none !important;
-        padding-top: 1rem;
+    text-decoration: none !important;
+    padding-top: 1rem;
 	padding-bottom: 1rem;
 	padding-inline-start: 1em;
 	padding-right: 0.7em;
