@@ -405,7 +405,7 @@ nav li li li li li a{
 }
 
 #mainnav li:hover:not(.active) ul:first-child{ 
-	margin-left: 1em;
+	margin-left: 0.5em;
 	
 }
 /*
@@ -542,7 +542,7 @@ li.nav-active>ul{
 
 /*hover ,  #mainnav li:hover>ul*/
 #mainnav li.nav-active>ul, #mainnav .nav>li:hover>ul{
-	margin-left: 1em;
+	margin-left: 0.5em;
 }
 
 #mainnav li.nav-active>ul:not(.active){
