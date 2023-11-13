@@ -602,7 +602,9 @@ li.nav-active>ul{
 	border-top: 2px solid #B94836;
 }
 
-
+.nav a:hover {
+	border-top: 2px solid #B94836;
+}
 /*hidden now
 
 #mainnav li.active>li>li, #mainnav li:hover>li>li {
