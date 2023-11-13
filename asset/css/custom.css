@@ -450,13 +450,13 @@ nav li li li li li a{
 #mainnav li a:focus, 
 #mainnav li a:hover {
 	text-decoration: underline;
-	background-color: #B94836  !important;
+	background-color: #ffed22  !important;
     color: #ffffff !important;
 	border-top: none !important;	
 }
 
 #mainnav li.nav-active>a:first-of-type{
-	border-top: 2px solid #B94836 !important;	
+	border-top: 2px solid #92b936 !important;	
 }
 /*
 li.nav-active>ul{
@@ -653,7 +653,7 @@ li.nav-active>ul{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-    background-color: #b93668 !important;
+    background-color: #41b936 !important;
 }
 
 .active> ul{
