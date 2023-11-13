@@ -655,10 +655,17 @@ li.nav-active>ul{
 	border-top: 2px solid #dddada !important;
 }
 
+@keyframes example {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-    background-color: #B94836 !important;
+	animation-name: example;
+    animation-duration: 4s;
+    /*background-color: #B94836 !important;*/
 }
 
 .active> ul{
