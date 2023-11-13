@@ -439,13 +439,18 @@ nav li li li li li a{
 	to {background-color: yellow !important;}
   }
 
-
+#mainnav>.nav>li.active>a{
+	background-color: #E6E8E6 ;
+	color: rgb(0, 0, 0) ;
+	border-top: 2px solid #dddada ;
+}
+/*
 .active>a {
     background-color: #E6E8E6 ;
 	color: rgb(0, 0, 0) !important;
 	border-top: 2px solid #dddada !important;
 }
-
+*/
 
 
 .nav-active>a{
