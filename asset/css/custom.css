@@ -1246,6 +1246,15 @@ div {
     height: 45px;
 }
 
+.pagination a{
+	color: #B94836;
+} 
+
+.pagination>.active>span{
+    background-color: #B94836;
+    border-color: #B94836;
+}
+
 #browse-pagination {
 	text-align:center;
 }
