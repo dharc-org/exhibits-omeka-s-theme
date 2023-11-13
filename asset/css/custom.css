@@ -182,7 +182,7 @@ form {
 #quicklinks a {
 	color:#99000b;
 	padding:0;
-	margin:10px 0 0 10px;
+	margin:0.5em 0 0 0.5em;
 }
 
 #quicklinks a:hover, #quicklinks a:focus {
