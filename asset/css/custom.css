@@ -416,7 +416,7 @@ nav li li li li li a{
 #mainnav li:first-of-type.nav-active>a{
 	border-top:none !important;	
 }
-.nav-stackedli>li:first-of-type a{
+.nav-stacked>li:first-of-type>a{
 	border-top:none !important;
 }
 
