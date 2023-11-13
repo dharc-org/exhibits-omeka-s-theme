@@ -424,8 +424,10 @@ nav li li li li li a{
 }
 */
 
+
+
 #mainnav>.nav>li>a {
-	background-color: #222222 ;
+	/*background-color: #222222 ;*/ 
 	color:rgb(255, 255, 255);
 	padding: 1rem;
 	display: block;
@@ -434,10 +436,7 @@ nav li li li li li a{
 	border-radius:0;
 }
 
-@keyframes colorChange {
-	from {background-color: red !important; }
-	to {background-color: yellow !important;}
-  }
+
 
 #mainnav>.nav>li.active>a{
 	/*background-color: #E6E8E6 ;*/
@@ -451,6 +450,12 @@ nav li li li li li a{
 	animation: colorChange 2s ease-in-out !important;
     /*background-color: #B94836 ;*/
 }
+
+
+@keyframes colorChange {
+	from {background-color: red !important; }
+	to {background-color: yellow !important;}
+  }
 
 .active> ul{
 	margin-left: 0.5em;
