@@ -428,6 +428,11 @@ nav li li li li li a{
 	to {background-color: yellow !important;}
   }
 
+
+.nav-pills>li.active>a{
+	background-color:none;
+}
+
 .nav-pills>li>a {
 	/*background-color: #222222 ;*/ 
 	color:rgb(255, 255, 255);
