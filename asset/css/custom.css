@@ -660,20 +660,28 @@ li.nav-active>ul{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-	
     /*background-color: #B94836 !important;*/
 }
 
-.nav-active>a{
-	animation-name: example;
-    animation-duration: 4s;
-}
+
+/*animation*/
 
 @keyframes example {
 	from {background-color: red;}
 	to {background-color: yellow;}
   }
 
+.nav-active>a{
+	animation-name: example;
+    animation-duration: 4s;
+}
+.nav-pills>li:first-child>a {
+	animation-name: example;
+    animation-duration: 4s;
+}
+
+
+/*animation*/
 
 .active> ul{
 margin-left: 0.5em;
