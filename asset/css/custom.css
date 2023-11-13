@@ -387,7 +387,7 @@ nav li li li li li a{
 }
 
 /*selected menu level*/
-#mainnav>.nav-pills>li.nav-active>a{
+#mainnav .nav-active>a{
 	width: 100%;
 	color: white !important;
     background-color: #B94836;
