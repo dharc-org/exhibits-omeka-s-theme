@@ -390,7 +390,6 @@ nav li li li li li a{
 	width: 100%;
 	color: white !important;
     background-color: #B94836 !important;
-	border-top: 2px solid #B94836;
 }
 
 .active> ul{
@@ -415,11 +414,11 @@ nav li li li li li a{
 #mainnav li.nav-active>a:first-of-type{
 	border-top:none !important;	
 }
-
+/*
 #mainnav>.nav>li:first-child a:hover{
 	border-top:none !important;
 }
-
+*/
 #mainnav>.nav>li {
 	background-color:#222222;
 	display:block;
