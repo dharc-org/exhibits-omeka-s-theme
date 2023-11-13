@@ -382,7 +382,7 @@ nav li li li li li a{
 .active>a{
 	background-color: #E6E8E6 !important;
 	color: rgb(0, 0, 0) !important;
-	border-top: 2px solid #dddada ;
+	border-top: 2px solid #dddada !important;
 }
 
 /*selected menu level*/
