@@ -1246,7 +1246,7 @@ div {
     height: 45px;
 }
 
-.pagination a{
+.pagination>li>a{
 	color: #B94836;
 } 
 
