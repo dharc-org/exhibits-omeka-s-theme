@@ -186,7 +186,7 @@ form {
 }
 
 #quicklinks a:hover, #quicklinks a:focus {
-	border-bottom:solid #B94836 2px;
+	border-bottom:2px solid #B94836 ;
 }
 
 /* .navbar #quicklinks #search-utas */
