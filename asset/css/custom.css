@@ -986,6 +986,7 @@ alredy hidden
 .breadcrumbs {
 	padding-bottom:1rem;
 	font-size: 1.3em;
+	color: #333 !important;
 }
 
 .breadcrumbs > a {
