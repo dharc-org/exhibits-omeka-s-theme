@@ -599,7 +599,7 @@ li.nav-active>ul{
 /*BORDERS red background with hovering get rid of borders*/
 
 .nav>a:hover {
-	border-top: none;
+	border-top: 2px solid #B94836;
 }
 
 
