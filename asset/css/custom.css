@@ -667,8 +667,8 @@ li.nav-active>ul{
 /*animation*/
 
 @keyframes example {
-	from {background-color: red;}
-	to {background-color: yellow;}
+	from {background-color: red !important;}
+	to {background-color: yellow !important;}
   }
 
 .nav-active>a{
