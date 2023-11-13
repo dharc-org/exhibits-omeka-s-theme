@@ -979,6 +979,10 @@ alredy hidden
     text-align: center;
 }
 
+.site-page-pagination > .btn{
+    font-size: 0.75em;
+}
+
 /*.site-page-pagination a:hover{
 }*/
 
