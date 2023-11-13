@@ -423,18 +423,11 @@ nav li li li li li a{
 	
 }
 */
-@keyframes colorChange {
-	from {background-color: red !important; }
-	to {background-color: yellow !important;}
-  }
 
 
-.nav-pills>li.active>a{
-	background-color: none ;
-}
 
 .nav-pills>li>a {
-	background-color: #222222 ;
+	background-color: #222222;
 	color:rgb(255, 255, 255);
 	padding: 1rem;
 	display: block;
@@ -445,7 +438,7 @@ nav li li li li li a{
 
 
 .nav-pills>li.active>a{
-	/*background-color: #E6E8E6 ;*/
+	background-color: #E6E8E6;
 	color: rgb(0, 0, 0) !important;
 	border-top: 2px solid #dddada ;
 }
@@ -453,8 +446,7 @@ nav li li li li li a{
 #mainnav>.nav-pills>li.active.nav-active>a{
 	width: 100%;
 	color: white !important;
-	animation: colorChange 2s ease-in-out !important;
-    /*background-color: #B94836 ;*/
+    background-color: #B94836;
 }
 
 
