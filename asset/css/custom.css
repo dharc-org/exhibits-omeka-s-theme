@@ -433,6 +433,33 @@ nav li li li li li a{
 	margin:auto;
 	border-radius:0;
 }
+
+@keyframes colorChange {
+	from {background-color: red !important; }
+	to {background-color: yellow !important;}
+  }
+
+
+.active>a {
+    background-color: #E6E8E6 ;
+	color: rgb(0, 0, 0) !important;
+	border-top: 2px solid #dddada !important;
+}
+
+
+
+.nav-active>a{
+	width: 100%;
+	color: white !important;
+	animation: colorChange 2s ease-in-out !important;
+    background-color: #B94836 ;
+}
+
+.active> ul{
+	margin-left: 0.5em;
+	}
+	
+
 /*hidden now
 
 #mainnav>.nav>li>a, 
@@ -650,27 +677,6 @@ li.nav-active>ul{
 */
 
 
-@keyframes colorChange {
-	from {background-color: red !important; }
-	to {background-color: yellow !important;}
-  }
-
-
-.active>a {
-    background-color: #E6E8E6 ;
-	color: rgb(0, 0, 0) !important;
-	border-top: 2px solid #dddada !important;
-}
-
-
-
-.nav-active>a{
-	width: 100%;
-	color: white !important;
-	animation: colorChange 2s ease-in-out !important;
-    background-color: #B94836 ;
-}
-
 
 /*animation*/
 
@@ -686,9 +692,6 @@ li.nav-active>ul{
 /*animation*/
 
 
-.active> ul{
-margin-left: 0.5em;
-}
 
 /*
 .active > a ~ a {
