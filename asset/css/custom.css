@@ -413,18 +413,18 @@ nav li li li li li a{
 }
 
 
-#mainnav>li:first-of-type.nav-active>a:hover{
+#mainnav>li:first-of-type>a:hover{
 	border-top:none !important;	
 }
 
 .nav-stacked>li:first-of-type.nav-active>a{
 	border-top:none !important;
 }
-
+/*
 .nav-stacked>li:first-of-type>a{
 	border-top:none !important;
 }
-
+*/
 
 
 #mainnav>.nav>li {
