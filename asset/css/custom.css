@@ -786,6 +786,7 @@ alredy hidden
 .sub-menu>.nav-pills>li.active>a:focus,
 .sub-menu>.nav-pills>li.active>a:hover {
 	background-color:#B94836;
+	border-top: 2px solid #B94836;
 }
 
 
