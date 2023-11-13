@@ -677,7 +677,7 @@ li.nav-active>ul{
 }
 .nav-pills>li:first-child>a {
 	animation-name: example;
-    animation-duration: 4s;
+    animation-duration: 14s;
 }
 
 
