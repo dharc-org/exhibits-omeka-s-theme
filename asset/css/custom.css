@@ -1250,6 +1250,10 @@ div {
 	color: #B94836;
 } 
 
+.pagination>li>a:hover{
+	color: #99000b;
+}
+
 .pagination>.active>span{
     background-color: #B94836;
     border-color: #B94836;
