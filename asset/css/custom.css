@@ -988,6 +988,10 @@ alredy hidden
 	font-size: 1.3em;
 }
 
+.breadcrumbs > a {
+	color: #333 !important;
+}
+
 footer {
 	background-color:#222222;
 	color:white;
