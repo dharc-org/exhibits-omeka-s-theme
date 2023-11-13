@@ -390,7 +390,7 @@ nav li li li li li a{
 	width: 100%;
 	color: white !important;
     background-color: #B94836 !important;
-	border-top: 2px solid #B94836 ;
+	border-top: 2px solid #B94836 !important;
 }
 
 .active> ul{
@@ -411,10 +411,10 @@ nav li li li li li a{
     color: #ffffff !important;
 	border-top: 2px solid #B94836 !important;	
 }
-
+/*
 #mainnav li.nav-active>a:first-of-type{
 	border-top:none !important;	
-}
+}*/
 /*
 #mainnav>.nav>li:first-child a:hover{
 	border-top:none !important;
@@ -549,6 +549,7 @@ nav li li li li li a{
 .sub-menu>.nav-pills>li:first-child.active>a:hover {
 	border-top: none;
 }
+
 
 /* Social media sharing buttons */
 #sharing-buttons{
