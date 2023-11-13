@@ -649,8 +649,15 @@ li.nav-active>ul{
 }
 */
 
+
+@keyframes colorChange {
+	from {background-color: red !important; }
+	to {background-color: yellow !important;}
+  }
+
+
 .active>a {
-    background-color: #E6E8E6;
+    background-color: #E6E8E6 !important;
 	color: rgb(0, 0, 0) !important;
 	border-top: 2px solid #dddada !important;
 }
@@ -660,10 +667,23 @@ li.nav-active>ul{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
-    background-color: #B94836;
+	animation: colorChange 2s ease-in-out !important;
+    background-color: #B94836 !important;
 }
 
 
+/*animation*/
+
+
+.nav-active>a{
+	
+}
+/*.nav-pills>li:first-child>a {
+	animation: colorChange 2s ease-in-out !important;
+}
+*/
+
+/*animation*/
 
 
 .active> ul{
@@ -1437,20 +1457,5 @@ video {
 
 
 
-/*animation*/
 
-@keyframes colorChange {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-.nav-active>a{
-	animation: colorChange 2s ease-in-out !important;
-}
-.nav-pills>li:first-child>a {
-	animation: colorChange 2s ease-in-out !important;
-}
-
-
-/*animation*/
 /*change end*/
