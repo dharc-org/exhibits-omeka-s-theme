@@ -369,7 +369,7 @@ nav li li li li li a{
 }
 
 /*2nd level and 3rd level*/
-.nav-pills>li>a {
+#mainnav>.nav>li>a {
 	background-color: #222222;
 	color:rgb(255, 255, 255);
 	padding: 1rem;
@@ -380,14 +380,14 @@ nav li li li li li a{
 }
 
 
-.nav-pills>li.active>a{
+.active>a{
 	background-color: #E6E8E6;
 	color: rgb(0, 0, 0) !important;
 	border-top: 2px solid #dddada ;
 }
 
 /*selected menu level*/
-#mainnav .nav-active>a{
+.nav-active>a {
 	width: 100%;
 	color: white !important;
     background-color: #B94836;
