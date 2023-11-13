@@ -668,7 +668,7 @@ li.nav-active>ul{
 	width: 100%;
 	color: white !important;
 	animation: colorChange 2s ease-in-out !important;
-    background-color: #B94836 !important;
+    background-color: #B94836 ;
 }
 
 
