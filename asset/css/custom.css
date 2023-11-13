@@ -457,7 +457,7 @@ nav li li li li li a{
 }
 
 #mainnav li.nav-active>a:first-of-type{
-	border-top: none !important;	
+	border-top: 2px solid #B94836 !important;	
 }
 /*
 li.nav-active>ul{
@@ -659,7 +659,7 @@ li.nav-active>ul{
 }
 
 .active> ul{
-margin-left: 1em;
+margin-left: 0.5em;
 }
 
 /*
