@@ -664,24 +664,7 @@ li.nav-active>ul{
 }
 
 
-/*animation*/
 
-@keyframes example {
-	from {background-color: red;}
-	to {background-color: yellow;}
-  }
-
-.nav-active>a{
-	animation-name: example;
-    animation-duration: 4s;
-}
-.nav-pills>li:first-child>a {
-	animation-name: example;
-    animation-duration: 14s;
-}
-
-
-/*animation*/
 
 .active> ul{
 margin-left: 0.5em;
@@ -1451,4 +1434,23 @@ video {
 	}
 }
 
+
+
+
+/*animation*/
+
+@keyframes colorChange {
+	from {background-color: red;}
+	to {background-color: yellow;}
+  }
+
+.nav-active>a{
+	animation: colorChange 2s ease-in-out;
+}
+.nav-pills>li:first-child>a {
+	animation: colorChange 2s ease-in-out;
+}
+
+
+/*animation*/
 /*change end*/
