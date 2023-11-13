@@ -412,6 +412,8 @@ nav li li li li li a{
 	border-top: 2px solid #B94836 !important;	
 }
 
+
+/*hide dark border (issue with importance)*/
 /*
 #mainnav>li:first-of-type>a:hover{
 	border-top:none !important;	
