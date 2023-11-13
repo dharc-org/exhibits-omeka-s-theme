@@ -986,11 +986,16 @@ alredy hidden
 .breadcrumbs {
 	padding-bottom:1rem;
 	font-size: 1.3em;
-	color: #333 !important;
+	color: #333;
 }
 
 .breadcrumbs > a {
-	color: #333 !important;
+	color: #333;
+	text-decoration: underline;
+}
+
+.breadcrumbs > a:hover {
+	color: #000000;
 }
 
 footer {
