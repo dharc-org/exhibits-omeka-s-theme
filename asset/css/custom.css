@@ -652,7 +652,7 @@ li.nav-active>ul{
 .active>a {
     background-color: #E6E8E6 !important;
 	color: rgb(0, 0, 0) !important;
-	border-top: 2px solid #dddada !important;
+	/*border-top: 2px solid #dddada !important;*/
 }
 
 
