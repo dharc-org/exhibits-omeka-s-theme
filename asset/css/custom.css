@@ -986,11 +986,11 @@ alredy hidden
 .breadcrumbs {
 	padding-bottom:1rem;
 	font-size: 1.3em;
-	color: #333;
+	color: #818181;
 }
 
 .breadcrumbs > a {
-	color: #333;
+	color: #818181;
 	text-decoration: underline;
 }
 
