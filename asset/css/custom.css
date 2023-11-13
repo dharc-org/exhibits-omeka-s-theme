@@ -1445,10 +1445,10 @@ video {
   }
 
 .nav-active>a{
-	animation: colorChange 2s ease-in-out;
+	animation: colorChange 2s ease-in-out !important;
 }
 .nav-pills>li:first-child>a {
-	animation: colorChange 2s ease-in-out;
+	animation: colorChange 2s ease-in-out !important;
 }
 
 
