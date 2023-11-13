@@ -434,7 +434,7 @@ nav li li li li li a{
 }
 
 .nav-pills>li>a {
-	/*background-color: #222222 ;*/ 
+	background-color: #222222 ;
 	color:rgb(255, 255, 255);
 	padding: 1rem;
 	display: block;
