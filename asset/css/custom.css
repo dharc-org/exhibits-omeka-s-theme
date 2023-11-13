@@ -450,9 +450,9 @@ nav li li li li li a{
 #mainnav li a:focus, 
 #mainnav li a:hover {
 	text-decoration: underline;
-	background-color: #ffed22  !important;
+	background-color: #B94836  !important;
     color: #ffffff !important;
-	border-top: none !important;	
+	border-top: 2px solid #B94836 !important;	
 }
 
 #mainnav li.nav-active>a:first-of-type{
