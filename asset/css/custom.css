@@ -428,8 +428,7 @@ nav li li li li li a{
 	to {background-color: yellow !important;}
   }
 
-
-#mainnav>.nav>li>a {
+.nav-pills>li>a {
 	/*background-color: #222222 ;*/ 
 	color:rgb(255, 255, 255);
 	padding: 1rem;
@@ -440,21 +439,18 @@ nav li li li li li a{
 }
 
 
-
-#mainnav>.nav>li.active>a{
+.nav-pills>li.active>a{
 	/*background-color: #E6E8E6 ;*/
 	color: rgb(0, 0, 0) !important;
 	border-top: 2px solid #dddada ;
 }
 
-#mainnav>.nav>li.nav-active>a{
+.nav-pills>li.nav-active>a{
 	width: 100%;
 	color: white !important;
 	animation: colorChange 2s ease-in-out !important;
     /*background-color: #B94836 ;*/
 }
-
-
 
 
 .active> ul{
