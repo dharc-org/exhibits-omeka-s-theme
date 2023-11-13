@@ -4,7 +4,6 @@ $(document).ready(function() {
     console.log(ActiveElementsList)
         
     var LastActive = ActiveElementsList[ActiveElementsList.length -1]
-    console.log("lat active"+LastActive)
 
     $(LastActive).addClass('nav-active');
  });
