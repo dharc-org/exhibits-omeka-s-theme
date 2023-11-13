@@ -660,9 +660,13 @@ li.nav-active>ul{
 .nav-active>a{
 	width: 100%;
 	color: white !important;
+	
+    /*background-color: #B94836 !important;*/
+}
+
+.nav-active>a{
 	animation-name: example;
     animation-duration: 4s;
-    /*background-color: #B94836 !important;*/
 }
 
 @keyframes example {
