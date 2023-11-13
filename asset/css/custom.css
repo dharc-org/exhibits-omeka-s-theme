@@ -546,6 +546,9 @@ nav li li li li li a{
 	border-top: 2px solid #B94836;
 }
 
+.sub-menu>.nav-pills>li:first-child.active>a:hover {
+	border-top: none;
+}
 
 /* Social media sharing buttons */
 #sharing-buttons{
