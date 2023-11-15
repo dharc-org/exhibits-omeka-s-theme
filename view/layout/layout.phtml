@@ -145,48 +145,55 @@ $userBar = $this->partial('common/user-bar', ['site' => $site]);
         </div><!--//.row-->
     </div><!--//.main-container-->
     </div>
-    
-        <footer class="container-fluid">
-			<div class="new-footer">
-				<div class="first-section">
-					<p class="footer-title">Mostra Virtuale FICLIT</p>
-					<p class="footer-text">
-						<a href="https://www.unibo.it/en/university/privacy-policy-and-legal-notes/privacy-policy/personal-data-processing" alt="Privacy policy" target="_black" class="footer-a">Privacy Policy</a>
-					</p>
-					
-					<p class="footer-text">
-						<a href="https://www.unibo.it/en/university/privacy-policy-and-legal-notes/legal-notes" alt="Legal notes" target="_black" class="footer-a">Legal Notes</a>
-					</p>
-				</div>
-				
-				<div class="second-section">
-					<p class="footer-title">/DH.arc - Digital Humanities Advanced Research Centre</p>
-					<span class="footer-text">
-						<a href="https://centri.unibo.it/dharc/enalt=" alt="Dharc website" target="_black" class="link_footer footer-a">About</a>
-					</span>
-					<span class="footer-separator">
-						 - 
-						<span>
-							<span class="footer-text">
-								<a href="https://centri.unibo.it/dharc/en/research/projects-at-dh-arc" alt="Dharc website" target="_black" class="link_footer footer-a">Projects</a>
-							</span>
-							<span class="footer-separator">
-								 - 
-								<span>
-									<span class="footer-text">
-										<a href="https://centri.unibo.it/dharc/en/contacts" alt="Dharc website" target="_black" class="link_footer footer-a">Contacts</a>
-									</span>
-								</span>	
-							</span>
-						</span>				
-					</span>
-				</div>
-			</div>
 
-			<div class="copyright-footer">
-				<p class="copyright-text"> © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre, University of Bologna.</p>
-			</div>
-		</footer>
+        <footer class="container-fluid">
+                        <div class="new-footer">
+                                <div class="first-section">
+                                        <p class="footer-title">Mostre Virtuali FICLIT</p>
+                                        <span class="footer-text">
+                                                <a href="https://www.unibo.it/en/university/privacy-policy-and-legal-notes/privacy-policy/personal-data-processing" alt="Privacy policy" target="_black" class="footer-a">Privacy Policy</a>
+                                        </span>
+                                        <span class="footer-separator"> - <span>
+                                        <span class="footer-text">
+                                                <a href="https://www.unibo.it/en/university/privacy-policy-and-legal-notes/legal-notes" alt="Legal notes" target="_black" class="footer-a">Legal Notes</a>
+                                        </span>
+                                        <span class="footer-separator"> - <span>
+                                        <span class="footer-text">
+                                                <a href="https://github.com/dharc-org/exhibits-omeka-s-theme" alt="Github" target="_black" class="footer-a">Github</a>
+                                        </span>
+
+                                </div>
+
+                                <div class="second-section">
+                                        <p class="footer-title">/DH.arc - Digital Humanities Advanced Research Centre</p>
+                                        <span class="footer-text">
+                                                <a href="https://centri.unibo.it/dharc/en/centre/centre-description" alt="Dharc website" target="_black" class="link_footer footer-a">About</a>
+                                        </span>
+                                        <span class="footer-separator">
+                                                 -
+                                                <span>
+                                                        <span class="footer-text">
+                                                                <a href="https://centri.unibo.it/dharc/en/research/projects-at-dh-arc" alt="Dharc website" target="_black" class="link_footer footer-a">Projects</a>
+                                                        </span>
+                                                        <span class="footer-separator">
+                                                                 -
+                                                                <span>
+                                                                        <span class="footer-text">
+                                                                                <a href="https://centri.unibo.it/dharc/en/contacts" alt="Dharc website" target="_black" class="link_footer footer-a">Contacts</a>
+                                                                        </span>
+                                                                </span>
+                                                        </span>
+                                                </span>
+                                        </span>
+                                </div>
+                        </div>
+
+                        <div class="copyright-footer">
+                                <p class="copyright-text"> © Copyright (c) 2021 by /DH.arc - Digital Humanities Advanced Research Centre, University of Bologna.</p>
+                        </div>
+                </footer>
+
+
         <!-- Javascript fies -->
         <?php echo $this->inlineScript()->prependFile($this->assetUrl('js/videofix.js')); ?>
   

@@ -63,13 +63,14 @@ a {
 }
 
 a.footer-a {
-	color:#9cc2e3;
-	font-size: 1.05em;
+	color: #ff7070;
+	font-size: 1.2em;
 	
 }
 
 a.footer-a:hover {
-	color: white;
+	color: #ff7070;
+        text-decoration: underline;
 }
 
 a:hover, a:focus {
@@ -781,7 +782,7 @@ footer .copyright-text {
 	font-style: italic;
 	color: white;
 	padding-top: 25px;
-	font-size: 1em;
+	font-size: 1.2em;
 }
 
 .footer--copyright a {
@@ -795,7 +796,7 @@ footer .copyright-text {
 
 footer .new-footer {
 	width: 100%;
-	padding: 2em;
+	/* padding: 2em; */
 	text-align: center;
 	display: flex;
 	justify-content:stretch;
@@ -803,30 +804,33 @@ footer .new-footer {
 	flex-wrap: wrap;
 }
 
-footer .first-section {
-	vertical-align: top;
-	width: 50%;
-	min-width: 15em;
-	display: inline-block;
-	box-sizing: border-box;
+footer .first-section{
+     vertical-align: top;
+     /* width: 40%; */
+     max-width: 300px;
+     text-align: center;
+     display: inline-block;
+     box-sizing: border-box;
+     padding-bottom: 30px;
 }
 
-footer .second-section {
-	vertical-align: top;
-	width: 50%;
-	min-width: 15em;
-	display: inline-block;
-	box-sizing: border-box;
+footer .second-section{
+     vertical-align: top;
+     /* margin-left: 35px; */
+     max-width: 300px;
+     text-align: center;
+     display: inline-block;
+     box-sizing: border-box;
 }
 
 footer .footer-title {
-	color:white;
-	font-size: 20px;
-	font-weight: 300;
+     color:white;
+     /* font-size: 20px; */
+     font-weight: 300;
 }
 
 footer .footer-text {
-	color:white;
+     color:white;
 }
 
 #exhibitions a:hover,
