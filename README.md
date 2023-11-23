@@ -12,6 +12,7 @@ Follow the documentation at: https://omeka.org/s/docs/user-manual/sites/site_the
 
 ### Project treeview
 ```
+exhibits-omeka-s-theme
 ├── asset
 │   ├── css
 │   │   └── custom.css
