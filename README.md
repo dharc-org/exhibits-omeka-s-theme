@@ -53,3 +53,7 @@ exhibits-omeka-s-theme
                 ├── navigation.phtml
                 └── show.phtml
 ```
+
+
+### Screenshot
+![alt Screenshot](https://raw.githubusercontent.com/dharc-org/exhibits-omeka-s-theme/main/theme.jpg)
