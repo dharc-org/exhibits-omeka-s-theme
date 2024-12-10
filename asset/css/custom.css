@@ -611,6 +611,11 @@ nav li li li li li a{
 	display:inline;
 }
 
+.center {
+    margin: auto;
+    width: 60%;
+}
+
 /* Item Showcase */
 .item-showcase {
     /*margin: 24px 0 23px;
