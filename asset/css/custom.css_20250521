@@ -1,7 +1,7 @@
 /*GLOBAL TAGS*/
 
 html {
-	font-family: "Zen Old Mincho";
+	font-family: 'Crimson Text', serif;
 	line-height: 1.45;
 	color:#000;
 	font-size:100%;
@@ -9,12 +9,12 @@ html {
 }
 
 body {
-	font-family: "Zen Old Mincho";
+	font-family: 'Crimson Text', serif;
 	
 }
 
 h2, h3, #type-title {
-	font-family: "Zen Old Mincho";
+	font-family: 'Crimson Text', serif;
 }
 
 h1, .h1 {
@@ -89,7 +89,7 @@ form {
 /* #skip_links */
 
 #skip_links, #skip_links .col-md-12 {
-	height: 5px;
+	height: 10px;
 	padding:0;
 	background: white;
 }
@@ -116,7 +116,7 @@ form {
 
 .navbar-brand {
 	height:initial;
-	color:#835959;
+	color:#2d6a9f;
 	position: relative;
 	margin-top: -12px;
 	margin-left: 130px;
@@ -124,16 +124,14 @@ form {
 	font-style: italic;
 }
 
-/*
 .navbar {
 	min-height: 6em;
 }
-*/
 
 .navbar-nav>li {
 	float:left;
 	display:inline-flex;
-	padding: 0px 5px 0px 5px;
+	padding: 5px;
 }
 
 .navbar-nav>li + li::before {
@@ -157,8 +155,8 @@ form {
 #quicklinks {
 	line-height:1;
 	font-size: 1.5em;
-	padding-left: 1em;
-	margin-right: 0.7em;
+	padding-left: 2em;
+	margin-right: 2em;
 }
 
 #quicklinks a {
@@ -264,8 +262,8 @@ header .title a {
 	}
 	
 	.topspace {
-		min-height: 8em;
-		background-color: initial;
+		min-height:12em;
+		background-color:initial;
 	}
 	
 	header .row {
@@ -493,13 +491,6 @@ nav li li li li li a{
 	background-color: #99000b;
     border-color: #99000b;
 	
-}
-
-.btn-primary:active {
-    background-color: #ca867b !important;
-    border-color: #99000b;
-    transform: translateY(1px); 
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) inset; 
 }
 
 /*nav menu borders */
@@ -935,6 +926,8 @@ footer .footer-text {
 	
 }
 
+
+
 h4 {
 	display: block;
 	margin-block-start: 0.8em;
@@ -1012,6 +1005,7 @@ div {
 #browse-pagination {
 	text-align:center;
 }
+
 
 .row-count {
 	display:block;
@@ -1120,34 +1114,16 @@ video {
 /* added by mdb */
 @media (max-width: 961px) {
 
-    /* header */
-	#quicklinks {
-		line-height: 1;
-		font-size: 1.2em;
-		padding-left: 0px;
-		margin-right: 0px;
-	}
-
-	.navbar {
-		margin-bottom: 0px;
-	}
-
-	#side_navigation {
-		background-color: rgba(0,0,0,.7);
-		padding: 0px;
-	}
-
     /* content */
     #content {
         width: 100%;
-		padding-top: 0px;
     }
 
     /* exhibition */
     .exhibitioncontent {
         margin-right: 0;
         text-align: justify;
-		padding: 10px;
+	padding: 10px;
     }
     #exhibitiontitle {
         margin-right: 0;
@@ -1162,18 +1138,6 @@ video {
 		width: 100%
 	}
 
-	.metadata > .property {
-		padding-left: 15px;
-	}
-
-	.resource-list > li.item.resource {
-		padding: 0px 20px 20px 0px;
-	}
-
-	.item-set-items > .resource-list {
-		padding-left: 0px;
-	}
-
     /* footer */
     footer .new-footer {
         width: 100%;
@@ -1186,7 +1150,7 @@ video {
     }
 
     footer .first-section {
-        margin-bottom: 0px;
+        margin-bottom: 20px;
     }
 
     footer .footer-title, footer .footer-text {
